@@ -1,4 +1,24 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'IHR FAHRRADGESCHÄFT IN WIEN'
 theme = 'lugo'
+
+
+[params]
+  description = "Promoting cycling in the city."
+  author = "IG Fahrrad"
+  # Add other custom params as needed
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
