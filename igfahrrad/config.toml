@@ -1,13 +1,11 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'IHR FAHRRADGESCHÄFT IN WIEN'
-theme = 'lugo'
-
+theme = "ananke"
 
 [params]
   description = "Promoting cycling in the city."
   author = "IG Fahrrad"
-  # Add other custom params as needed
 
 [menu]
   [[menu.main]]
@@ -22,3 +20,4 @@ theme = 'lugo'
     name = "Contact"
     url = "/contact/"
     weight = 3
+
