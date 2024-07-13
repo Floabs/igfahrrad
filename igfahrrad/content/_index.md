@@ -3,11 +3,22 @@ title: "Home"
 description: "Welcome to IG Fahrrad"
 ---
 
-# Welcome to IG Fahrrad
+# IHR FAHRRADGESCHÄFT IN
 
-Promoting cycling in the city...
+# WIEN
 
-## Latest News
+<div style="text-align:center; margin: 20px 0;">
+  <hr style="width: 50px; height: 5px; background-color: #FFA500; border: none;">
+</div>
 
-Stay updated with the latest news about cycling in our city.
+## <span style="color: #FFA500;">7, WESTBAHNSTRASSE 28</span>
 
+### Öffnungszeiten
+
+Di bis Fr von 11.00 bis 18.00 Uhr
+
+(Für aktuelle Öffnungszeiten bitte anrufen)
+
+**IG Fahrrad Team**
+
+**Keep on biking!**
