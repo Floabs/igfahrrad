@@ -20,3 +20,33 @@ footer {
   padding: 1em 0;
 }
 
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+
+.social-links a,
+.contact-info a {
+  color: #fff;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info span {
+  margin: 0 0.5em;
+}
+
+.social-links a:hover,
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
