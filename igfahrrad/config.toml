@@ -7,6 +7,9 @@ theme = "ananke"
   description = "Promoting cycling in the city."
   author = "IG Fahrrad"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Home"
