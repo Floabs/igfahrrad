@@ -75,7 +75,6 @@ jobs:
     steps:
     - uses: actions/download-artifact@v3
       with:
-        name: page
         path: .
 
     - name: show artifacts
