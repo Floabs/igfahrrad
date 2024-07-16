@@ -41,9 +41,9 @@ jobs:
       pages: write
       id-token: write      
     steps:
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4
       with:
-    #   name: page
+        name: page
         path: .
 
     - name: show artifacts
