@@ -49,8 +49,8 @@ jobs:
 
     - uses: actions/download-artifact@v3
       with:
-        name: page
-        path: ./igfahrrad
+    #   name: page
+        path: .
 
     - name: show artifacts
       run: |
