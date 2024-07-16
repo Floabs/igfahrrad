@@ -36,15 +36,15 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: install nodejs
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      #- name: install nodejs
+      #  uses: actions/setup-node@v3
+      #  with:
+      #    node-version: '18'
 
-      - name: install-node_modules
-        run: |
-          npm install
-        working-directory: blog      
+      #- name: install-node_modules
+      #  run: |
+      #    npm install
+      #  working-directory: blog      
 
       - name: Build
         run: |
