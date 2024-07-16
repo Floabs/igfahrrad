@@ -31,16 +31,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
-      - name: install nodejs
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      ##- name: install nodejs
+      ##  uses: actions/setup-node@v3
+      ##  with:
+      ##    node-version: '18'
 
-      - name: install-node_modules
-        run: |
-          npm install
-          cp ./node_modules/bulma/css/bulma.css ./node_modules/font-awesome/css/font-awesome.css
-        working-directory: blog      
+      ##- name: install-node_modules
+      ##  run: |
+      ##    npm install
+      ##    cp ./node_modules/bulma/css/bulma.css ./node_modules/font-awesome/css/font-awesome.css
+      ##  working-directory: blog      
 
       - name: Build
         run: |
@@ -51,10 +51,10 @@ jobs:
           hugo --minify
           echo "- aberger.at " >> $GITHUB_STEP_SUMMARY
           hugo --minify --destination trading --baseURL=https://tradingthetrades.com
-          zip -r trading.zip trading
+          zip -r igfahrrad.zip igfahrrad
           mkdir -p public/download
-          mv trading.zip public/download
-        working-directory: blog
+          mv igfahrrad.zip public/download
+        working-directory: igfahrrad
 
       - uses: actions/upload-artifact@master
         with:

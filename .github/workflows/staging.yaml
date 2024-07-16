@@ -1,7 +1,7 @@
 name: build
 on:
   push:
-    branches: [ staging ]
+    branches: [ main ]
 
   workflow_dispatch:
     inputs:
@@ -14,7 +14,7 @@ jobs:
   gh-pages-hugo:
     uses: ./.github/workflows/hugo.yaml
     with:
-      baseUrl: https://qrzbrz.github.io/flo-blog/blog
+      baseUrl: https://Floabs.github.io/igfahrrad/igfahrrad
       environment: "--environment staging"
 
   documentation:
