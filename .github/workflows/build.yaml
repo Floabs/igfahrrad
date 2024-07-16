@@ -59,7 +59,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: page
-          path: blog/public
+          path: igfahrrad/public
           if-no-files-found: error
 
   deploy-gh-pages: # do not rename this, webhook listens to exactly this workflow name
