@@ -48,7 +48,6 @@ jobs:
 
       - name: Build
         run: |
-          npm run copy-files
           echo "build hugo with destination ${{ inputs.destination }} and baseUrl ${{ inputs.baseUrl }} ${{ inputs.environment }}"
           hugo --verbose --minify --destination ${{ inputs.destination }} --baseURL=${{ inputs.baseUrl }} ${{ inputs.environment }}
           pwd
