@@ -1,0 +1,62 @@
+name: include file
+on:
+  workflow_call:
+    inputs:
+      baseUrl:
+        description: the base url of the build
+        type: string
+      destination:
+        description: the destination folder of the build
+        default: public
+        type: string
+      environment:
+        description: the build environment to use for config
+        default: ""
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+         
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.112.7"
+          extended: true
+
+      - uses: actions/cache@v3
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: install nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: install-node_modules
+        run: |
+          npm install
+        working-directory: blog      
+
+      - name: Build
+        run: |
+          npm run copy-files
+          echo "build hugo with destination ${{ inputs.destination }} and baseUrl ${{ inputs.baseUrl }} ${{ inputs.environment }}"
+          hugo --verbose --minify --destination ${{ inputs.destination }} --baseURL=${{ inputs.baseUrl }} ${{ inputs.environment }}
+          pwd
+          ls -l
+        working-directory: blog
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: page
+          path: blog/${{ inputs.destination }}
+          if-no-files-found: error

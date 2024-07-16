@@ -1,0 +1,73 @@
+name: build
+on:
+  push:
+    branches: [ staging ]
+
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: enable tmate console debugging     
+        required: false
+        default: "disabled"
+
+jobs:
+  gh-pages-hugo:
+    uses: ./.github/workflows/hugo.yaml
+    with:
+      baseUrl: https://qrzbrz.github.io/flo-blog/blog
+      environment: "--environment staging"
+
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/upload-artifact@master
+        with:
+          name: doc
+          path: documentation
+          if-no-files-found: error
+
+  deploy-gh-pages: # do not rename this, webhook listens to exactly this workflow name
+    runs-on: ubuntu-22.04
+    needs: 
+      - gh-pages-hugo
+      - documentation
+
+    environment:
+      name: github-pages
+      url: ${{steps.deployment.outputs.page_url}}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write      
+    steps:
+
+    - uses: actions/download-artifact@v3
+      with:
+        name: doc
+        path: .
+
+    - uses: actions/download-artifact@v3
+      with:
+        name: page
+        path: ./blog
+
+    - name: show artifacts
+      run: |
+        pwd
+        ls -l
+
+    - uses: actions/configure-pages@v3
+
+    - uses: actions/upload-pages-artifact@v1.0.8
+      with:
+        path: .
+
+    - id: deployment
+      uses: actions/deploy-pages@main
+
+    - name: summary-report
+      run: |
+        echo "## Deployment " >> $GITHUB_STEP_SUMMARY
+        echo "visit [Github Pages](https://qrzbrz.github.io/flo-blog/) now" >> $GITHUB_STEP_SUMMARY
+        echo "after some minutes the site should be available at [https://tradingthetrades.com](https://tradingthetrades.com) " >> $GITHUB_STEP_SUMMARY
