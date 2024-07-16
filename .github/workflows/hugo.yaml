@@ -29,12 +29,12 @@ jobs:
           hugo-version: "0.112.7"
           extended: true
 
-      - uses: actions/cache@v3
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
+      #- uses: actions/cache@v3
+      #  with:
+      #    path: /tmp/hugo_cache
+      #    key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+      #    restore-keys: |
+      #      ${{ runner.os }}-hugomod-
 
       #- name: install nodejs
       #  uses: actions/setup-node@v3
@@ -53,10 +53,10 @@ jobs:
           hugo --verbose --minify --destination ${{ inputs.destination }} --baseURL=${{ inputs.baseUrl }} ${{ inputs.environment }}
           pwd
           ls -l
-        working-directory: blog
+        working-directory: igfahrrad
 
       - uses: actions/upload-artifact@master
         with:
           name: page
-          path: blog/${{ inputs.destination }}
+          path: igfahrrad/${{ inputs.destination }}
           if-no-files-found: error
