@@ -1,5 +1,5 @@
 baseURL = 'https://floabs.github.io/igfahrrad/'
-relativeURLs: true
+relativeURLs = true
 languageCode = 'en-us'
 title = 'IHR FAHRRADGESCHÄFT IN WIEN'
 theme = "ananke"
