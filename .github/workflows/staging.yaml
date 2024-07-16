@@ -55,7 +55,7 @@ jobs:
       with:
         enablement: true
 
-    - uses: actions/upload-pages-artifact@v1.0.8
+    - uses: actions/upload-pages-artifact@v3
       with:
         path: .
 
@@ -65,5 +65,4 @@ jobs:
     - name: summary-report
       run: |
         echo "## Deployment " >> $GITHUB_STEP_SUMMARY
-        echo "visit [Github Pages](https://qrzbrz.github.io/flo-blog/) now" >> $GITHUB_STEP_SUMMARY
-        echo "after some minutes the site should be available at [https://tradingthetrades.com](https://tradingthetrades.com) " >> $GITHUB_STEP_SUMMARY
+        echo "visit [Github Pages](https://Floabs.github.io/igfahrrad/) now" >> $GITHUB_STEP_SUMMARY
