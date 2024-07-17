@@ -1,4 +1,5 @@
-#baseURL = 'https://floabs.github.io/igfahrrad'
+# baseURL = 'https://floabs.github.io/igfahrrad'
+# baseURL is set on command line when building
 relativeURLs = true
 languageCode = 'en-us'
 title = 'IHR FAHRRADGESCHÄFT IN WIEN'
