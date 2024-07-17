@@ -2,7 +2,7 @@
 
 {{ if .IsHome }}
   <!-- Hero Section for Home Page -->
-  {{ $featured_image = "./images/bikes_in_forest.jpg" }}
+  {{ $featured_image = "./images/bikes_in_forest.jpg" | absURL }}
 {{ end }}
 
 {{ if $featured_image }}
