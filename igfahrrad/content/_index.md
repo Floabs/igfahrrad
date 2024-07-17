@@ -3,9 +3,8 @@ title: "Home"
 description: "Welcome to IG Fahrrad"
 ---
 
-# IHR FAHRRADGESCHÄFT IN
+# IHR FAHRRADGESCHÄFT IN WIEN
 
-# WIEN
 
 <div style="text-align:center; margin: 20px 0;">
   <hr style="width: 50px; height: 5px; background-color: #FFA500; border: none;">
