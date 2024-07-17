@@ -9,15 +9,15 @@ date: 2024-07-13T12:00:00Z
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-    <img src="{{ "./images/icon1.png" | absURL }}" alt="Icon 1" style="width: 100px; height: 100px;">
+    {{< absurlimg src="./images/icon1.png" alt="Icon 1" style="width: 100px; height: 100px;" >}}
     <p>top serviciert & STVO konform!</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/icon2.png" alt="Icon 2" style="width: 100px; height: 100px;">
+    {{< absurlimg src="./images/icon2.png" alt="Icon 2" style="width: 100px; height: 100px;" >}}
     <p>alte & kaputte Teile -> NEU!</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/icon3.png" alt="Icon 3" style="width: 100px; height: 100px;">
+    {{< absurlimg src="./images/icon3.png" alt="Icon 3" style="width: 100px; height: 100px;" >}}
     <p>mit Mobilitätsgarantie!</p>
   </div>
 </div>
@@ -36,7 +36,8 @@ Schreibe uns Marke und deine Körpergröße.
 **WO:** IG Fahrrad WESTBAHNSTRASSE 28, 1070 WIEN  
 **Wann:** nach tel. Vereinbarung unter +43 660 76 55 893
 
-<a href="/contact/" style="display: inline-block; padding: 1em; background-color: #ff6600; color: white; text-decoration: none; border-radius: 5px;">JETZT ANFRAGEN</a>
+{{< absurllink href="contact/" style="display: inline-block; padding: 1em; background-color: #ff6600; color: white; text-decoration: none; border-radius: 5px;" >}}JETZT ANFRAGEN{{< /absurllink >}}
+
 
 ### FAHRRAD EINTAUSCHEN? SO LÄUFT DAS...
 
@@ -47,11 +48,9 @@ Tausche dein altes gegen ein Neurad! Gerne nehmen wir Dein altes Rad für eine n
 Hier findest Du ein paar Beispielbilder zu einigen unserer Gebrauchträder. Die Fluktuation ist hier so hoch, dass wir nur Beispielbilder zeigen, am besten Du kommst persönlich in der 7, Westbahnstraße 28 vorbei!
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="/images/gebrauchtrad1.jpg" alt="Beispielbild 1" style="width: 45%; height: auto;">
-  <img src="/images/gebrauchtrad2.jpg" alt="Beispielbild 2" style="width: 45%; height: auto;">
+  {{< absurlimg src="./images/gebrauchtrad1.jpg" alt="Beispielbild 1" style="width: 45%; height: auto;" >}}
+  {{< absurlimg src="./images/gebrauchtrad2.jpg" alt="Beispielbild 2" style="width: 45%; height: auto;" >}}
 </div>
-
-
 
 ### WORAUF DU BEIM KAUF EINES GEBRAUCHTRADS ACHTEN SOLLTEST
 
@@ -63,4 +62,3 @@ Hier findest Du ein paar Beispielbilder zu einigen unserer Gebrauchträder. Die 
 4. Bei einem Ankauf von Fahrrädern von Privatpersonen, sollten Sie auch nach der Herkunft der Räder fragen.
 
 Wenn diese Fragen nicht eindeutig klar beantwortet werden können, sollte Sie den Ankauf nochmals überdenken.
-
