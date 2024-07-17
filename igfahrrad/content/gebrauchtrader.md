@@ -1,6 +1,7 @@
 ---
 title: "Gebrauchtfahrräder"
 date: 2024-07-13T12:00:00Z
+omit_title: true
 ---
 
 ## GEBRAUCHTE FAHRRÄDER TOP RESTAURIERT

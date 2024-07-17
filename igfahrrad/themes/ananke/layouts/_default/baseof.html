@@ -252,8 +252,11 @@
       
       {{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
       <main id="main" class="pb7" role="main">
-        {{ block "main" . }}{{ end }}
+        {{ block "main" . }}
+          {{ .Content }}
+        {{ end }}
       </main>
+      
       <footer class="footer bg-black white pv4 ph3 ph5-m ph6-l">
         <div class="mw9 center">
           <div class="footer-content flex justify-between">

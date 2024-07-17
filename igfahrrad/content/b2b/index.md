@@ -4,8 +4,6 @@ description: "Ihre Mitarbeiterinnen und deren Sicherheit und Fitness sind Ihnen 
 date: 2024-07-13
 ---
 
-# MOBILER FAHRRADSERVICE FÜR UNTERNEHMEN
-
 **Ihre Mitarbeiterinnen und deren Sicherheit und Fitness sind Ihnen viel wert?**
 
 Sie haben jetzt die Möglichkeit, ihren Mitarbeiterinnen und Mitarbeitern ein mobiles Radservice anzubieten.
