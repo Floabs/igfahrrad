@@ -40,7 +40,6 @@
     {{ end }}
     {{ block "head" . }}{{ partial "head-additions.html" . }}{{ end }}
     <style>
-      
       html, body {
         height: 100%;
         margin: 0;
@@ -138,56 +137,99 @@
       .header-logo a img {
         max-height: 80px;
       }
-
+    
       .header-nav-toggle {
         display: none;
       }
-
-    @media (max-width: 768px) {
-      .header-nav {
-        display: none;
-      }
-      .header-nav-toggle {
-        display: block;
-        cursor: pointer;
-        font-size: 1.5em;
-      }
-      .header-nav.active {
+    
+      .contact-info {
         display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #fff;
+        align-items: center;
       }
-      .header-nav.active ul {
-        flex-direction: column;
-        width: 100%;
+      .contact-info a {
+        color: #fff;
+        margin-left: 1em;
+        display: flex;
+        align-items: center;
       }
-      .header-nav.active li {
-        width: 100%;
-        text-align: center;
-        margin: 0.5em 0;
+      .contact-info i {
+        margin-right: 0.5em;
       }
-    }  
-      
-
+      .contact-info .contact-text {
+        display: none;
+      }
+      .social-icons a {
+        margin-left: 1em;
+      }
+    
+      @media (min-width: 769px) {
+        .contact-info .contact-text {
+          display: inline;
+        }
+        .contact-info .contact-icon {
+          display: none;
+        }
+      }
+      @media (max-width: 768px) {
+        .contact-info .contact-text {
+          display: none;
+        }
+        .contact-info .contact-icon {
+          display: inline;
+        }
+      }
+    
+      @media (max-width: 768px) {
+        .header-nav {
+          display: none;
+        }
+        .header-nav-toggle {
+          display: block;
+          cursor: pointer;
+          font-size: 1.5em;
+        }
+        .header-nav.active {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background-color: #fff;
+        }
+        .header-nav.active ul {
+          flex-direction: column;
+          width: 100%;
+        }
+        .header-nav.active li {
+          width: 100%;
+          text-align: center;
+          margin: 0.5em 0;
+        }
+      }  
     </style>
+    
   </head>
   <body class="ma0 {{ $.Param "body_classes" | default "avenir bg-near-white" }}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     <div id="content">
       <div class="header-top">
-        <div>
-          <a href="mailto:shop@ig-fahrrad.at">shop@ig-fahrrad.at</a>
-          <a href="tel:+436607655893">+43 660 76 55 893</a>
+        <div class="contact-info">
+          <a href="mailto:shop@ig-fahrrad.at">
+            <i class="fas fa-envelope contact-icon"></i>
+            <span class="contact-text">shop@ig-fahrrad.at</span>
+          </a>
+          <a href="tel:+436607655893">
+            <i class="fas fa-phone contact-icon"></i>
+            <span class="contact-text">+43 660 76 55 893</span>
+          </a>
         </div>
         <div class="social-icons">
           <a href="https://www.facebook.com/igfahrrad" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/igfahrrad" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://www.twitter.com/igfahrrad" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
-      </div>      
+      </div>
+            
       <div class="header-bottom">
         <div class="header-logo">
           <a href="/"><img src="{{ "./images/logo.png" | absURL }}" alt="Logo"></a>
