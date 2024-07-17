@@ -1,0 +1,16 @@
+{
+  "name": "igfahrrad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && live-server --port=4200",
+    "build": "pushd igfahrrad && hugo --baseURL=http://127.0.0.1:4200/igfahrrad/public/ && popd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
