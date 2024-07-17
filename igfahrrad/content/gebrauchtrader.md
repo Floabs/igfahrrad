@@ -9,7 +9,7 @@ date: 2024-07-13T12:00:00Z
 
 <div style="display: flex; justify-content: space-around;">
   <div style="text-align: center;">
-    <img src="{{ "/images/icon1.png" | absURL }}" alt="Icon 1" style="width: 100px; height: 100px;">
+    <img src="{{ "./images/icon1.png" | absURL }}" alt="Icon 1" style="width: 100px; height: 100px;">
     <p>top serviciert & STVO konform!</p>
   </div>
   <div style="text-align: center;">
