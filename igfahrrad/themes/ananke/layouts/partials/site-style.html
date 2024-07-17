@@ -1,5 +1,5 @@
 {{ with partialCached "func/style/GetMainCSS" "style/GetMainCSS" }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" >
+<link rel="stylesheet" href="{{ .Permalink }}" >
 {{ end }}
 
 {{ range site.Params.custom_css }}
