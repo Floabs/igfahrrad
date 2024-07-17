@@ -36,7 +36,7 @@ Schreibe uns Marke und deine Körpergröße.
 **WO:** IG Fahrrad WESTBAHNSTRASSE 28, 1070 WIEN  
 **Wann:** nach tel. Vereinbarung unter +43 660 76 55 893
 
-{{< absurllink href="contact/" style="display: inline-block; padding: 1em; background-color: #ff6600; color: white; text-decoration: none; border-radius: 5px;" >}}JETZT ANFRAGEN{{< /absurllink >}}
+{{< contactbutton >}}JETZT ANFRAGEN{{< /contactbutton >}}
 
 
 ### FAHRRAD EINTAUSCHEN? SO LÄUFT DAS...
