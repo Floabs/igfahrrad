@@ -1,1 +1,1 @@
-[{"name": "q1", "description": "q1", "price": "11", "type": "q1", "image": "static/uploads/icon1.png"}, {"name": "q2", "description": "q2", "price": "2", "type": "q2", "image": "static/uploads/logo.png"}]
+[{"name": "rad1", "description": "das erste rad", "price": "100", "type": "citybike", "image": "static/uploads/pexels-elina-sazonova-1850629.jpg"}, {"name": "rad2", "description": "das zweite testbike", "price": "200", "type": "cruiserbike", "image": "static/uploads/pexels-pixabay-276517.jpg"}]
