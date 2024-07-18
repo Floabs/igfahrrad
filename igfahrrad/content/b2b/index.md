@@ -31,10 +31,10 @@ Die Räder werden direkt vor Ort in Ihrem Betrieb gewartet und repariert. Wir ko
   </div>
 </div>
 
-<div style="text-align: center; margin: 20px 0;">
-  <a href="/downloads/folder.pdf" class="btn btn-primary" style="margin-right: 10px; padding: 10px 20px; background-color: orange; color: white; border: none; border-radius: 5px; text-decoration: none; font-weight: bold;">Folder downloaden</a>
-  <a href="/contact" class="btn btn-secondary" style="padding: 10px 20px; background-color: orange; color: white; border: none; border-radius: 5px; text-decoration: none; font-weight: bold;">Jetzt anfragen</a>
-</div>
+
+
+{{< downloadbutton >}}JETZT Downloaden{{< /downloadbutton >}}
+{{< contactbutton >}}JETZT ANFRAGEN{{< /contactbutton >}}
 
 ## Referenzen
 
