@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### langsam aber oho
 
-{{< absurlimg src="./uploads/gebrauchtrad2.jpg" alt="omas rad" style="" >}}
+{{< absurlimg src="./uploads/gebrauchtrad2.jpg" alt="omas rad" style="width: 100%;" >}}
 
 **Price:** 100
 **Type:** elderly rad

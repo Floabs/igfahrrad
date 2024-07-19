@@ -118,7 +118,7 @@ date: 2024-07-13T12:00:00Z
 
 ### {bike['description']}
 
-{{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="" >}}}}
+{{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="width: 100%;" >}}}}
 
 **Price:** {bike['price']}
 **Type:** {bike['type']}
@@ -129,18 +129,19 @@ date: 2024-07-13T12:00:00Z
             md_file.write(md_content)
 
     # Generate _index.md for neurader
-    index_content = "---\ntitle: \"Neurader\"\n---\n\n## Neurader\n\n"
+    index_content = "---\ntitle: \"Neurader\"\n---\n\n## Neurader\n\n<div class=\"bikes-container\" style=\"display: flex; flex-wrap: wrap; gap: 20px;\">\n"
     for bike in bike_data:
         index_content += f"""
-<div class="bike-preview">
+<div class="bike-preview" style="flex: 0 0 calc(50% - 20px); box-sizing: border-box;">
     <h2>{bike['name']}</h2>
-    {{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="" >}}}}
+    {{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="width: 100%; height: auto;" >}}}}
     <p>{bike['description']}</p>
     <p><strong>Price:</strong> {bike['price']}</p>
     <p><strong>Type:</strong> {bike['type']}</p>
     {{{{< absurllink href="./neurader/{bike['name'].replace(' ', '_').lower()}" style="" >}}}}Read more{{{{< /absurllink >}}}}
 </div>
 """
+    index_content += "\n</div>"
 
     with open(os.path.join(BIKE_CONTENT_FOLDER, "_index.md"), 'w') as index_file:
         index_file.write(index_content)
