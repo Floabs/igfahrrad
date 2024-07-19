@@ -49,7 +49,6 @@ Tausche dein altes gegen ein Neurad! Gerne nehmen wir Dein altes Rad für eine n
 Hier findest Du ein paar Beispielbilder zu einigen unserer Gebrauchträder. Die Fluktuation ist hier so hoch, dass wir nur Beispielbilder zeigen, am besten Du kommst persönlich in der 7, Westbahnstraße 28 vorbei!
 
 <div style="display: flex; justify-content: space-around;">
-  {{< absurlimg src="./images/gebrauchtrad1.jpg" alt="Beispielbild 1" style="width: 45%; height: auto;" >}}
   {{< absurlimg src="./images/gebrauchtrad2.jpg" alt="Beispielbild 2" style="width: 45%; height: auto;" >}}
 </div>
 

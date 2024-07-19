@@ -1,0 +1,2 @@
+{{ $href := .Get "href" | absURL }}
+<a href="{{ $href }}" style="{{ .Get "style" }}">{{ .Inner }}</a>
