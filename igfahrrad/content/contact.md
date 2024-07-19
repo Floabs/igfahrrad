@@ -11,15 +11,19 @@ description: "Get in touch with us"
    <input type="text" id="first-name" name="first-name" required style="padding: 10px; border-radius: 4px; border: none;">
     
    <label for="last-name">Nachname*</label>
+
    <input type="text" id="last-name" name="last-name" required style="padding: 10px; border-radius: 4px; border: none;">
     
    <label for="email">E-Mail*</label>
+
    <input type="email" id="email" name="email" required style="padding: 10px; border-radius: 4px; border: none;">
     
    <label for="subject">Radtype oder Thema der Anfrage</label>
+
    <input type="text" id="subject" name="subject" style="padding: 10px; border-radius: 4px; border: none;">
     
    <label for="message">Nachricht*</label>
+   
    <textarea id="message" name="message" rows="5" required style="padding: 10px; border-radius: 4px; border: none;"></textarea>
     
    <label>

@@ -6,7 +6,7 @@ date: 2024-07-13T12:00:00Z
 In nur drei Schritten ist dein Rad wieder fahrbereit und auf Dich persönlich eingestellt.
 
 ### SCHRITT 1
-Bitte schreib uns deinen Wunschtermin per Kontaktformular! Wir senden dir eine Bestätigung oder Anmeldung per Telefon unter +43 660 76 55 893 shop@ig-fahrrad.at
+Bitte schreib uns deinen Wunschtermin per Kontaktformular! Wir senden dir eine Bestätigung oder Anmeldung per Telefon von +43/660/7655893 oder Email: shop@ig-fahrrad.at
 
 ### SCHRITT 2
 Wir kommen zu Dir und reparieren dein Rad.
