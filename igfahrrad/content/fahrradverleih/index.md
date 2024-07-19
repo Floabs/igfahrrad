@@ -36,7 +36,7 @@ E-Bikes werden immer beliebter. Sie sind vor allem ein guter Partner bei länger
 
 Dann komm vorbei oder kontaktier uns einfach!
 
-[Kontaktiere uns](/contact/)
+{{< contactbutton >}}Jetzt anfragen{{< /contactbutton >}}
 
 ---
 
