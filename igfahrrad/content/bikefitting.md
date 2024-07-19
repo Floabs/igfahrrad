@@ -1,7 +1,7 @@
 ---
 title: "Bikefitting"
 date: 2024-07-13T12:29:01+02:00
-draft: true
+draft: false
 ---
 
 # Bikefitting in Wien
