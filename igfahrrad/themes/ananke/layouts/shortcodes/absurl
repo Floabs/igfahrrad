@@ -1,0 +1,3 @@
+<!-- layouts/shortcodes/absurl.html -->
+{{ $url := .Get "href" | absURL }}
+{{ $url }}

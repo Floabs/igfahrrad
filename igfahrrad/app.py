@@ -118,10 +118,32 @@ date: 2024-07-13T12:00:00Z
 
 ### {bike['description']}
 
-{{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="width: 100%;" >}}}}
+{{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="" >}}}}
 
-**Price:** {bike['price']}
-**Type:** {bike['type']}
+
+### Lagernd bei:
+IG Fahrrad
+
+Westbahnstraße 28
+1070 Wien
+
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 60%;">
+        <h3>Lagernd bei:</h3>
+        <p>ig fahrrad<br>Westbahnstraße 28<br>1070 Wien</p>
+        {{{{< contactbutton bike="{bike['name']}" >}}}}Anfragen{{{{< /contactbutton >}}}}
+    </div>
+    <div style="width: 35%;">
+        <h3>INFO</h3>
+        <p><strong>Price:</strong> {bike['price']}</p>
+        <p><strong>Type:</strong> {bike['type']}</p>
+        <hr style="border: 1px solid orange;">
+        <h3>SHARE</h3>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{{{< absurl >}}}}" target="_blank"><img src="./images/facebook.png" alt="Facebook" style="width: 24px; margin-right: 10px;"></a>
+        <a href="https://twitter.com/intent/tweet?url={{{{< absurl >}}}}" target="_blank"><img src="./images/twitter.png" alt="Twitter" style="width: 24px; margin-right: 10px;"></a>
+        <a href="https://www.instagram.com/?url={{{{< absurl >}}}}" target="_blank"><img src="./images/instagram.png" alt="Instagram" style="width: 24px; margin-right: 10px;"></a>
+    </div>
+</div>
 """
 
         md_filename = os.path.join(bike_folder, "_index.md")
@@ -129,10 +151,11 @@ date: 2024-07-13T12:00:00Z
             md_file.write(md_content)
 
     # Generate _index.md for neurader
-    index_content = "---\ntitle: \"Neurader\"\n---\n\n## Neurader\n\n<div class=\"bikes-container\" style=\"display: flex; flex-wrap: wrap; gap: 20px;\">\n"
+    index_content = "---\ntitle: \"Neurader\"\n---\n\n## Neurader\n\n"
+    index_content += '<div style="display: flex; flex-wrap: wrap;">\n'
     for bike in bike_data:
         index_content += f"""
-<div class="bike-preview" style="flex: 0 0 calc(50% - 20px); box-sizing: border-box;">
+<div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
     <h2>{bike['name']}</h2>
     {{{{< absurlimg src="./uploads/{os.path.basename(bike['image'])}" alt="{bike['name']}" style="width: 100%; height: auto;" >}}}}
     <p>{bike['description']}</p>
@@ -141,7 +164,7 @@ date: 2024-07-13T12:00:00Z
     {{{{< absurllink href="./neurader/{bike['name'].replace(' ', '_').lower()}" style="" >}}}}Read more{{{{< /absurllink >}}}}
 </div>
 """
-    index_content += "\n</div>"
+    index_content += '</div>\n'
 
     with open(os.path.join(BIKE_CONTENT_FOLDER, "_index.md"), 'w') as index_file:
         index_file.write(index_content)
