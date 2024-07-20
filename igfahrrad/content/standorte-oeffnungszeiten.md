@@ -11,6 +11,7 @@ Westbahnstraße 28, 1070 Wien
 
 **Öffnungszeiten:**
 - **Di-Fr:** 11.00 bis 18.00 Uhr
+- **Sa** geschlossen
 
 **Geschäft:** +43 660 76 55 893
 
