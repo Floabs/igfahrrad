@@ -11,28 +11,29 @@ hideTitle: true
 
 <div style="display: flex; justify-content: space-around; margin: 20px 0;">
     <div style="text-align: center;">
-        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
-            {{< absurlimg src="./images/gebrauchtrad1.webp" alt="top serviciert & STVO konform!" style="width: 150px; height: 150px;" >}}
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey" style="width: 100px; height: 100px;">
+            {{< absurlimg src="./images/gebrauchtrad1.webp" alt="top serviciert & STVO konform!" style="width: 75px; height: 75px;" >}}
         </div>
         <p><strong>top serviciert & STVO konform!</strong></p>
     </div>
     <div style="text-align: center;">
-        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
-            {{< absurlimg src="./images/gebrauchtrad2.webp" alt="alte & kaputte Teile -> NEU!" style="width: 150px; height: 150px;" >}}
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey" style="width: 100px; height: 100px;">
+            {{< absurlimg src="./images/gebrauchtrad2.webp" alt="alte & kaputte Teile -> NEU!" style="width: 75px; height: 75px;" >}}
         </div>
         <p><strong>alte & kaputte Teile -> NEU!</strong></p>
     </div>
     <div style="text-align: center;">
-        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
-            {{< absurlimg src="./images/gebrauchtrad3.webp" alt="mit Mobilitätsgarantie!" style="width: 150px; height: 150px;" >}}
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey" style="width: 100px; height: 100px;">
+            {{< absurlimg src="./images/gebrauchtrad3.webp" alt="mit Mobilitätsgarantie!" style="width: 75px; height: 75px;" >}}
         </div>
         <p><strong>mit Mobilitätsgarantie!</strong></p>
     </div>
 </div>
 
+
 <style>
 .vc_single_image-wrapper.vc_box_circle {
-    border-radius: 50%;
+    border-radius: 70%;
     overflow: hidden;
     display: inline-block;
     border: 2px solid grey;
