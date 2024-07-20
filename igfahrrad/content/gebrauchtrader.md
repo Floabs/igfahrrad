@@ -8,20 +8,38 @@ hideTitle: true
 
 ### Ein Rad für jeden Tag
 
-<div style="display: flex; justify-content: space-around;">
-  <div style="text-align: center;">
-    {{< absurlimg src="./images/icon1.png" alt="Icon 1" style="width: 100px; height: 100px;" >}}
-    <p>top serviciert & STVO konform!</p>
-  </div>
-  <div style="text-align: center;">
-    {{< absurlimg src="./images/icon2.png" alt="Icon 2" style="width: 100px; height: 100px;" >}}
-    <p>alte & kaputte Teile -> NEU!</p>
-  </div>
-  <div style="text-align: center;">
-    {{< absurlimg src="./images/icon3.png" alt="Icon 3" style="width: 100px; height: 100px;" >}}
-    <p>mit Mobilitätsgarantie!</p>
-  </div>
+
+<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+    <div style="text-align: center;">
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
+            {{< absurlimg src="./images/gebrauchtrad1.webp" alt="top serviciert & STVO konform!" style="width: 150px; height: 150px;" >}}
+        </div>
+        <p><strong>top serviciert & STVO konform!</strong></p>
+    </div>
+    <div style="text-align: center;">
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
+            {{< absurlimg src="./images/gebrauchtrad2.webp" alt="alte & kaputte Teile -> NEU!" style="width: 150px; height: 150px;" >}}
+        </div>
+        <p><strong>alte & kaputte Teile -> NEU!</strong></p>
+    </div>
+    <div style="text-align: center;">
+        <div class="vc_single_image-wrapper vc_box_circle vc_box_border_grey">
+            {{< absurlimg src="./images/gebrauchtrad3.webp" alt="mit Mobilitätsgarantie!" style="width: 150px; height: 150px;" >}}
+        </div>
+        <p><strong>mit Mobilitätsgarantie!</strong></p>
+    </div>
 </div>
+
+<style>
+.vc_single_image-wrapper.vc_box_circle {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid grey;
+}
+</style>
+
+
 
 ### WAS DU ÜBER UNSERE GEBRAUCHTRÄDER WISSEN SOLLST
 
