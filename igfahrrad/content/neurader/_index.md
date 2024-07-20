@@ -25,15 +25,6 @@ title: "Neurader"
 </div>
 
 <div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
-    <h2>omas rad</h2>
-    {{< absurlimg src="./uploads/gebrauchtrad2.jpg" alt="omas rad" style="width: 100%; height: auto;" >}}
-    <p>langsam aber oho</p>
-    <p><strong>Price:</strong> 100</p>
-    <p><strong>Type:</strong> elderly rad</p>
-    {{< absurllink href="./neurader/omas_rad" style="" >}}Read more{{< /absurllink >}}
-</div>
-
-<div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
     <h2>newtest</h2>
     {{< absurlimg src="./uploads/pexels-pixabay-276517.jpg" alt="newtest" style="width: 100%; height: auto;" >}}
     <p>re</p>
@@ -58,5 +49,14 @@ title: "Neurader"
     <p><strong>Price:</strong> 232</p>
     <p><strong>Type:</strong> wew</p>
     {{< absurllink href="./neurader/sdsdsdsd" style="" >}}Read more{{< /absurllink >}}
+</div>
+
+<div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
+    <h2>wolgangsrad</h2>
+    {{< absurlimg src="./uploads/helm2.png" alt="wolgangsrad" style="width: 100%; height: auto;" >}}
+    <p>schoenes rad</p>
+    <p><strong>Price:</strong> 250</p>
+    <p><strong>Type:</strong> mountainbike</p>
+    {{< absurllink href="./neurader/wolgangsrad" style="" >}}Read more{{< /absurllink >}}
 </div>
 </div>

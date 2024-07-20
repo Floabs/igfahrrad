@@ -10,8 +10,7 @@ title: "Standort & Öffnungszeiten"
 Westbahnstraße 28, 1070 Wien
 
 **Öffnungszeiten:**
-- **Mo-Fr:** 11.00 bis 18.00 Uhr
-- **Sa:** 11.00 bis 15.00 Uhr
+- **Di-Fr:** 11.00 bis 18.00 Uhr
 
 **Geschäft:** +43 660 76 55 893
 
@@ -19,12 +18,5 @@ Westbahnstraße 28, 1070 Wien
 
 ## Standort auf der Karte
 
-<iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423.1923211031553!2d16.3486776!3d48.1962081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d078bce611633%3A0xaee4670db2202edc!2sig-fahrrad%20%7C%20Otto-Bauer-Gasse!5e0!3m2!1sen!2sus!4v1624103927721!5m2!1sen!2sus" 
-  width="600" 
-  height="450" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy">
-</iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10636.950769707237!2d16.33394867629165!3d48.202037441731726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07f2dd81470f%3A0x343c91aaa9e0ccb0!2sWestbahnstra%C3%9Fe%2028%2C%201070%20Wien!5e0!3m2!1sen!2sat!4v1721475367493!5m2!1sen!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
