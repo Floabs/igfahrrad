@@ -10,8 +10,8 @@ description: "Welcome to IG Fahrrad"
 ### <span style="color: #FFA500;">7, WESTBAHNSTRASSE 28</span>
 
 ### Öffnungszeiten
-Mo-Fr 11:00 - 18:00 Uhr
-Sa 11:00 - 15:00 Uhr
+Di-Fr 11:00 - 18:00 Uhr
+Sa geschlossen
 
 ### Lage
 <div class="map-container">
