@@ -11,6 +11,7 @@ description: "Welcome to IG Fahrrad"
 
 ### Öffnungszeiten
 Di-Fr 11:00 - 18:00 Uhr
+
 Sa geschlossen
 
 ### Lage
