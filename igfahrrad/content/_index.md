@@ -79,6 +79,3 @@ Wir sind ein engagiertes Team von Fahrradspezialisten mit einer Leidenschaft fü
 
 {{< contactbutton1 url="./ueber-uns" text="Mehr Infos über uns" >}}
 
----
-
-
