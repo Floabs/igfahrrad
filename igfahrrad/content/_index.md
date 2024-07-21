@@ -22,7 +22,7 @@ Sa 11:00 - 15:00 Uhr
 
 ---
 
-## Service
+## Fahrradservice
 
 Wir bieten eine Vielzahl von Services an, um Ihr Fahrrad in bestem Zustand zu halten:
 
