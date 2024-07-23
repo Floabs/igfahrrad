@@ -1,0 +1,35 @@
+GET http://localhost:8080/bicycles
+###
+POST http://localhost:8080/bicycles
+Content-Type: application/json
+
+{
+  "bicycleName": "hello kurt"
+}
+###
+GET http://localhost:8080/bicycles/7
+###
+POST http://localhost:8080/bicycles/add
+Content-Type: application/json
+
+{
+    "name": "rad2",
+    "description": "das zweite testbike",
+    "price": "200",
+    "type": "cruiserbike",
+    "image": "static/uploads/pexels-pixabay-276517.jpg"
+}
+###
+GET http://localhost:8080/bicycles/7
+###
+POST http://localhost:8080/bicycles/delete
+Content-Type: application/json
+
+{
+    "name": "rad2",
+    "description": "addd",
+    "price": "adder",
+    "type": "myAdd",
+    "image": "addddeeeeer"
+}
+###
