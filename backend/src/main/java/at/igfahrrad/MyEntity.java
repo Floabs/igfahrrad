@@ -21,7 +21,7 @@ import jakarta.persistence.Id;
  *         List<MyEntity> entities = em.createQuery("from MyEntity", MyEntity.class).getResultList();
  *     }
  * }
- 
+ */
 @Entity
 public class MyEntity {
     @Id
@@ -30,4 +30,4 @@ public class MyEntity {
 
     public String field;
 }
-*/
+
