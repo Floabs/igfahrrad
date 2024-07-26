@@ -5,12 +5,14 @@ import java.util.List;
 
 import org.jboss.logging.Logger;
 
-import com.arjuna.ats.internal.arjuna.objectstore.jdbc.drivers.mariadb_driver;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.quarkus.hibernate.orm.panache.Panache;
 import jakarta.inject.Inject;
+import jakarta.transaction.Transactional;
 import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.DELETE;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
@@ -29,8 +31,8 @@ public class BicycleResource {
 
     @GET
     public List<Bicycle> getAll() throws IOException {
-        var bycicles = bicycleRepository.load();
-        return List.of(bycicles);
+        var bycicles = bicycleRepository.listAll();
+        return bycicles;
     }
     @GET
     @Path("/kurt")
@@ -39,51 +41,28 @@ public class BicycleResource {
         greeting.name = "hallo kurt";
         return greeting;
     }
-    @POST
-    public Response store(Bicycle bicycle) throws JsonProcessingException{
-        var mapper = new ObjectMapper();
-        var jason = mapper.writeValueAsString(bicycle);
-        log.info(jason);
-        var uri = UriBuilder
-            .fromResource(BicycleResource.class)
-            .path("/7")
-            .build();
-        return Response.ok().location(uri).build();
-    }
+    
     @GET
     @Path("/{id}")
-    public Bicycle getbBicycle(@PathParam("id") String id){
-        log.infof("get Bicycle with id %s", id);
-        return new Bicycle();
+    public Bicycle getbBicycle(@PathParam("id") Long id){
+        return bicycleRepository.findById(id);
     }
     @POST
-    @Path("/add")
+    @Transactional
     public Response addBicycle(Bicycle bicycle) throws IOException {
-        var newBicyles = bicycleRepository.add(bicycle);
-        bicycleRepository.updateBicyclesJson(newBicyles);
-        var mapper = new ObjectMapper();
-        var jason = mapper.writeValueAsString(newBicyles);
-        log.info(jason);
+        bicycleRepository.persistAndFlush(bicycle);
         var uri = UriBuilder
             .fromResource(BicycleResource.class)
-            .path("/7")
+            .path(bicycle.id.toString())
             .build();
-        return Response.ok().location(uri).build();
+        return Response.ok().location(uri).build();        
     }
 
-    @POST
-    @Path("/delete")
-    public Response deleteBicycle(Bicycle bicycle) throws IOException {
-        var newBicyles = bicycleRepository.deleteBicycle(bicycle);
-        bicycleRepository.updateBicyclesJson(newBicyles);
-        var mapper = new ObjectMapper();
-        var jason = mapper.writeValueAsString(newBicyles);
-        log.info(jason);
-        var uri = UriBuilder
-            .fromResource(BicycleResource.class)
-            .path("/7")
-            .build();
-        return Response.ok().location(uri).build();
+    @DELETE
+    @Path("/{id}")
+    public Response deleteBicycle(@PathParam("id") Long id) throws IOException {
+        bicycleRepository.deleteById(id);
+        return Response.noContent().build();
     }
 
     

@@ -20,7 +20,7 @@ Content-Type: application/json
     "image": "static/uploads/pexels-pixabay-276517.jpg"
 }
 ###
-GET http://localhost:8080/bicycles/7
+GET http://localhost:8080/bicycles/1
 ###
 POST http://localhost:8080/bicycles/delete
 Content-Type: application/json
@@ -32,4 +32,6 @@ Content-Type: application/json
     "type": "myAdd",
     "image": "addddeeeeer"
 }
+###
+DELETE http://localhost:8080/bicycles/1
 ###
