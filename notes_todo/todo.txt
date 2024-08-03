@@ -1,0 +1,7 @@
+html - formulare / forms mdn (mozialla developer networks)
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+quarkus qute:
+https://quarkus.io/guides/qute
+
+
