@@ -12,9 +12,9 @@ public class Bicycle {
     @Id
     @GeneratedValue
     public Long id;
-    public String name = "Velo";
-    public String description = "";
+    public String name;
+    public String description;
     public BigDecimal price = BigDecimal.ZERO;
-    public String type = "";
-    public String image = "";
+    public String type;
+    public String image;
 }

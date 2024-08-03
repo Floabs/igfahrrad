@@ -12,31 +12,33 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 public class BicycleJsonRepository {
-    
-    public static final Path FILEPATH = Path.of("bikes.json"); 
+
+    public static final Path FILEPATH = Path.of("bikes.json");
 
     public Bicycle[] load() throws IOException {
-        var jason = Files.readString(FILEPATH);
+        var json = Files.readString(FILEPATH);
         var mapper = new ObjectMapper();
-        var bicycles = mapper.readValue(jason, Bicycle[].class);
+        return mapper.readValue(json, Bicycle[].class);
+    }
+
+    public List<Bicycle> add(Bicycle bicycle) throws IOException {
+        var bicycles = List.of(this.load());
+        var updatedBicycles = new LinkedList<>(bicycles);
+        updatedBicycles.add(bicycle);
+        updateBicyclesJson(updatedBicycles);
+        return updatedBicycles;
+    }
+
+    public List<Bicycle> deleteBicycle(Long id) throws IOException {
+        var currentBicycles = this.load();
+        var bicycles = List.of(currentBicycles)
+            .stream()
+            .filter(bike -> !bike.id.equals(id))
+            .toList();
+        updateBicyclesJson(bicycles);
         return bicycles;
     }
-    public List<Bicycle> add (Bicycle bicycle) throws IOException {
-        var bicycles = List.of(this.load());
-        var updatedbicycles = new LinkedList<>(bicycles);
-        updatedbicycles.add(bicycle);
 
-        return updatedbicycles;
-    }
-
-    public List<Bicycle> deleteBicycle(Bicycle bicycle) throws IOException {
-        var currentBicycles = this.load();
-        var biycles = List.of(currentBicycles)
-            .stream()
-            .filter(bike -> !bike.name.equals(bicycle.name))
-            .toList();
-        return biycles;
-    }
     public void updateBicyclesJson(List<Bicycle> bicycles) throws IOException {
         var mapper = new ObjectMapper();
         var json = mapper.writeValueAsString(bicycles);
