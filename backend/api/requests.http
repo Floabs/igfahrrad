@@ -9,7 +9,7 @@ Content-Type: application/json
 ###
 GET http://localhost:8080/bicycles/7
 ###
-POST http://localhost:8080/bicycles/add
+POST http://localhost:8080/bicycles/save
 Content-Type: application/json
 
 {
