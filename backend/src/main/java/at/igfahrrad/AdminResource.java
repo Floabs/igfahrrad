@@ -2,6 +2,7 @@ package at.igfahrrad;
 
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -21,6 +22,7 @@ public class AdminResource {
 
     @GET
     @Produces(MediaType.TEXT_HTML)
+    @RolesAllowed("User")
     public TemplateInstance get() {
         List<Bicycle> bikes = bicycleRepository.listAll();
         return admin.data("bikes", bikes);
