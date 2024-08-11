@@ -1,10 +1,66 @@
-{{ $image := "images/bikes_in_forest.webp" }}
 {{ $imagorURL := "https://images.cloud.htl-leonding.ac.at/" }}
+{{ $imageCrypt256 := "cfZpv-NjINd7rUQ4pnKoxSoBeEA%3D%2Ffit-in%2F256x171%2Fhttps%3A%2F%2Fimages.pexels.com%2Fphotos%2F145399%2Fpexels-photo-145399.jpeg%3Fauto%3Dcompress" }}
+{{ $imageCrypt512 := "L8kfXdh2vtFMZV_A2_Wu_oTLNNE%3D%2Ffit-in%2F932x612%2Fhttps%3A%2F%2Fimages.pexels.com%2Fphotos%2F145399%2Fpexels-photo-145399.jpeg%3Fauto%3Dcompress" }}
+{{ $imageCrypt1024 := "7CXwO9XQsHjOwWLN7QSZpOSpncw%3D%2Ffit-in%2F1320x880%2Fhttps%3A%2F%2Fimages.pexels.com%2Fphotos%2F145399%2Fpexels-photo-145399.jpeg%3Fauto%3Dcompress" }}
+<!--
+{{ $image := "images/bikes_in_forest.webp" }}
 {{ $imageCrypt := "uGW8OjkUkWGFDFl_8aMGuXVHycQ%3D%2Fhttps%3A%2F%2Fimages.pexels.com%2Fphotos%2F145399%2Fpexels-photo-145399.jpeg%3Fauto%3Dcompress" }}
 {{ $imagorImageURL := printf "%s/%s" $imagorURL $imageCrypt }}
+-->
 
+{{ $imagorImageURL256 := printf "%s%s" $imagorURL $imageCrypt256 }}
+{{ $imagorImageURL512 := printf "%s%s" $imagorURL $imageCrypt512 }}
+{{ $imagorImageURL1024 := printf "%s%s" $imagorURL $imageCrypt1024 }}
+<!--
 
-<header class="cover bg-top" style="background-image: url('{{ $imagorImageURL }}');">
+Double picture problem cause pic is background - how do i use it on background without js?
+
+<header class="cover bg-top" style="background-image: url('{{ $imagorImageURL1024 }}');">
+  <div class="bg-black-60">
+      <img 
+          src="{{ $imagorImageURL1024 }}" 
+          srcset="
+              {{ $imagorImageURL256 }} 256w, 
+              {{ $imagorImageURL512 }} 512w, 
+              {{ $imagorImageURL1024 }} 1024w" 
+          sizes="(max-width: 256px) 256px, 
+                 (max-width: 512px) 512px, 
+                 1024px"
+          alt="Gebrauchtfahrräder"
+          style="width: 100%; height: auto;">
+
+      <div class="tc-l pv6 pv6-ns ph4 ph4-ns">
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</div>
+          {{ with .Params.description }}
+          <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              {{ . }}
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</header>
+
+-->
+<style>
+  .cover {
+      background-image: url('{{ $imagorImageURL1024 }}');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  @media (max-width: 1024px) {
+      .cover {
+          background-image: url('{{ $imagorImageURL512 }}');
+      }
+  }
+  @media (max-width: 512px) {
+      .cover {
+          background-image: url('{{ $imagorImageURL256 }}');
+      }
+  }
+</style>
+
+<header class="cover bg-top">
   <div class="bg-black-60">
       <div class="tc-l pv6 pv6-ns ph4 ph4-ns">
           <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</div>
@@ -17,7 +73,25 @@
   </div>
 </header>
 
-<!-- 
+
+<!--
+<header class="cover bg-top" style="background-image: url('{{ $imagorImageURL }}');">
+  <div class="bg-black-60">
+      <div class="tc-l pv6 pv6-ns ph4 ph4-ns">
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</div>
+          {{ with .Params.description }}
+          <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              {{ . }}
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</header>
+-->
+
+
+
+<!--  original with bikes_in_fore
 {{ $featured_image := "images/bikes_in_forest.webp"}}
 <header class="cover bg-top" style="background-image: url('{{ $featured_image | relURL }}');">
   <div class="bg-black-60">
