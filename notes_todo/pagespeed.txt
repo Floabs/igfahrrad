@@ -1,0 +1,2 @@
+https://ausi.github.io/respimagelint/
+https://github.com/cshum/imagor
