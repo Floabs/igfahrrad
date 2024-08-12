@@ -12,10 +12,7 @@
 {{ $imagorImageURL512 := printf "%s%s" $imagorURL $imageCrypt512 }}
 {{ $imagorImageURL1024 := printf "%s%s" $imagorURL $imageCrypt1024 }}
 <!--
-
-Double picture problem cause pic is background - how do i use it on background without js?
-
-<header class="cover bg-top" style="background-image: url('{{ $imagorImageURL1024 }}');">
+<header class="cover bg-top">
   <div class="bg-black-60">
       <img 
           src="{{ $imagorImageURL1024 }}" 
@@ -39,8 +36,9 @@ Double picture problem cause pic is background - how do i use it on background w
       </div>
   </div>
 </header>
-
 -->
+
+
 <style>
   .cover {
       background-image: url('{{ $imagorImageURL1024 }}');
@@ -59,6 +57,7 @@ Double picture problem cause pic is background - how do i use it on background w
       }
   }
 </style>
+
 
 <header class="cover bg-top">
   <div class="bg-black-60">

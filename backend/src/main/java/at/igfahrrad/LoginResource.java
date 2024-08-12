@@ -22,8 +22,9 @@ public class LoginResource {
     @Transactional
     public Response login(UserCredentials credentials) {
         if (userService.validateUser(credentials.getUsername(), credentials.getPassword())) {
-            String token = Jwt.issuer("https://your-issuer.com")
+            String token = Jwt.issuer("http://localhost:8080")
                              .upn(credentials.getUsername())
+                             .groups("admin")
                              .sign();
             return Response.ok(new TokenResponse(token)).build();
         }

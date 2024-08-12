@@ -22,7 +22,7 @@ public class AdminResource {
 
     @GET
     @Produces(MediaType.TEXT_HTML)
-    @RolesAllowed("user")
+    @RolesAllowed("admin")
     public TemplateInstance get() {
         List<Bicycle> bikes = bicycleRepository.listAll();
         return admin.data("bikes", bikes);
