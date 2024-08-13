@@ -72,18 +72,7 @@ hideTitle: true
 
 Bei uns findest du gepflegte Mountainbikes, Trekking, Rennräder, City Bikes, Kinderräder, Elektroräder...
 
-**Suchst du ein bestimmtes Rad?**  
-Schreibe uns Marke und deine Körpergröße.
-
-**WO:** IG Fahrrad WESTBAHNSTRASSE 28, 1070 WIEN  
-**Wann:** nach tel. Vereinbarung unter +43 660 76 55 893
-
 {{< contactbutton >}}JETZT ANFRAGEN{{< /contactbutton >}}
-
-
-### FAHRRAD EINTAUSCHEN? SO LÄUFT DAS...
-
-Tausche dein altes gegen ein Neurad! Gerne nehmen wir Dein altes Rad für eine neues Markenrad Deiner Wahl in Rechnung. Kontaktiere uns einfach, um einen Termin zu vereinbaren...
 
 ### UNSERE GEBRAUCHTRÄDER IM ÜBERBLICK
 

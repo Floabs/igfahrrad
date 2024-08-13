@@ -15,26 +15,25 @@ Die Räder werden direkt vor Ort in Ihrem Betrieb gewartet und repariert. Wir ko
 - Nachhaltige und umweltschonende Mobilität in Ihrem Unternehmen
 - Umweltbewusstes Unternehmensimage
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-  <div style="flex: 1; padding: 10px;">
-    <h2 style="color: orange;">1</h2>
-    <p>Gemeinsame Planung und Terminvereinbarung</p>
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <h2 style="color: orange;">2</h2>
-    <p>Ankündigung des Radservicetermins in Ihrem Unternehmen</p>
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <h2 style="color: orange;">3</h2>
-    <p>Aufbau der mobilen Radservicewerkstätte (ca. 40m<sup>2</sup>)<br>
-    Durchführung des individuellen Radservices</p>
-  </div>
+<div style="display: flex; align-items: center; padding: 10px;">
+  <h2 style="color: orange; margin-right: 10px;">1</h2>
+  <p>Gemeinsame Planung und Terminvereinbarung</p>
+</div>
+<div style="display: flex; align-items: center; padding: 10px;">
+  <h2 style="color: orange; margin-right: 10px;">2</h2>
+  <p>Ankündigung des Radservicetermins in Ihrem Unternehmen</p>
+</div>
+<div style="display: flex; align-items: center; padding: 10px;">
+  <h2 style="color: orange; margin-right: 10px;">3</h2>
+  <p>Aufbau der mobilen Radservicewerkstätte (ca. 40m<sup>2</sup>)<br>
+  Durchführung des individuellen Radservices</p>
 </div>
 
 
-
-{{< downloadbutton >}}JETZT Downloaden{{< /downloadbutton >}}
-{{< contactbutton >}}JETZT ANFRAGEN{{< /contactbutton >}}
+<div style="text-align: center; margin-top: 20px;">
+  {{< downloadbutton >}}JETZT Downloaden{{< /downloadbutton >}}
+  {{< contactbutton >}}JETZT ANFRAGEN{{< /contactbutton >}}
+</div>
 
 ## Referenzen
 

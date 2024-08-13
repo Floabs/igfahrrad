@@ -12,7 +12,7 @@ Wenn für die Fahrradreparatur der eigene Fahrradflickzeugkasten doch nicht mehr
 <div style="text-align:center; margin: 20px 0;">
     <h3>Neuräder & Werkstatt</h3>
     <p>Westbahnstraße 28<br>1070 Wien</p>
-    {{< absurlbutton href="https://www.google.com/maps/place/ig-fahrrad+%7C+Otto-Bauer-Gasse/@48.1962117,16.3464889,17z/data=!3m1!4b1!4m5!3m4!1s0x476d078bce611633:0xaee4670db2202edc!8m2!3d48.1962081!4d16.3486776?shorturl=1" style="padding: 10px 20px; background-color: #FF6600; color: white; border-radius: 5px; text-decoration: none;" >}}Anfahrt in Google Maps{{< /absurlbutton >}}
+    {{< absurlbutton href="https://www.google.at/maps/place/ig-fahrrad+%7C+Westbahnstra%C3%9Fe/@48.2018997,16.3416596,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07f2dde356cf:0x5198edb2eac9ee6b!8m2!3d48.2018962!4d16.3442399!16s%2Fg%2F1hf3s9pk2?entry=ttu" style="padding: 10px 20px; background-color: #FF6600; color: white; border-radius: 5px; text-decoration: none;" >}}Anfahrt in Google Maps{{< /absurlbutton >}}
 </div>
 
 ---

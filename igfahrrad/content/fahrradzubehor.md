@@ -4,20 +4,15 @@ title: "Fahrradzubehör"
 
 ## FAHRRADZUBEHÖR - MEHR SICHERHEIT DANK FAHRRADHELM & CO
 
-Gutes Fahrradzubehör ist unerlässlich wenn du sicher im Straßenverkehr unterwegs sein willst. Wir haben in unserer Filiale in der Westbahnstraße ein umfangreiches Sortiment qualitativ hochwertiger Zubehörartikel. Näheres dazu erfährst du hier oder in unserer Filiale:
-
-### Neuräder & Werkstatt
-
-Westbahnstraße 28  
-1070 Wien
-
-{{< absurlbutton href="https://www.google.com/maps/place/ig-fahrrad+%7C+Otto-Bauer-Gasse/@48.1962117,16.3464889,17z/data=!3m1!4b1!4m5!3m4!1s0x476d078bce611633:0xaee4670db2202edc!8m2!3d48.1962081!4d16.3486776?shorturl=1" style="padding: 10px 20px; background-color: #FF6600; color: white; border-radius: 5px; text-decoration: none;" >}}Anfahrt in Google Maps{{< /absurlbutton >}}
-
----
+Gutes Fahrradzubehör ist unerlässlich wenn du sicher im Straßenverkehr unterwegs sein willst. Wir haben in unserer Filiale in der Westbahnstraße ein umfangreiches Sortiment qualitativ hochwertiger Zubehörartikel. 
 
 Das richtige Fahrradzubehör ist ebenso wichtig wie ein richtig eingestelltes Fahrrad. Das Zubehör erhöht nochmal das Level an Sicherheit und Komfort, wenn du auf deinem Bike unterwegs bist. Vor allem für die Sicherheit sind manche Artikel unerlässlich. Fahrradlichter sind sowieso Pflicht, ihre Notwendigkeit ist unbestritten, doch sollen sie auch gutes Licht abgeben und robust sein. Daher führen wir in unserer Filiale nur Fahrradzubehör mit einem Mindestanspruch an Qualität. Ein Schloss für dein Fahrrad bringt nur etwas, wenn es auch wirklich stark ist. Vor allem wenn die Artikel deiner Sicherheit dienen sollen, darfst du an der Qualität nicht sparen, wie etwa ein Fahrradhelm.
 
-Die meisten Fahrräder werden in Wien jedoch im öffentlichen Raum gestohlen oder fallen Vandalismus zum Opfer.
+<section style="text-align:center;">
+  <p>Westbahnstraße 28</p>
+  <p>1070 Wien</p>
+  <a href="https://www.google.com/maps/place/ig-fahrrad+%7C+Westbahnstra%C3%9Fe/@48.2018962,16.3442399,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07f2dde356cf:0x5198edb2eac9ee6b!8m2!3d48.2018962!4d16.3442399!16s%2Fg%2F1hf3s9pk2?entry=ttu" target="_blank" style="display:inline-block; background-color:#ff6600; color:white; padding:10px 20px; border-radius:5px; text-decoration:none;">Anfahrt in Google Maps</a>
+</section>
 
 ---
 
@@ -48,8 +43,6 @@ Hier findest du eine kleine Auswahl der Fahrradhelme in unserem Fahrradgeschäft
 Egal ob Fahrradhelm, Fahrradlichter oder ein neues Fahrradschloss, bei IG Fahrrad bekommst du den nötigen Zubehör in bester Qualität. Damit du lange Freude damit hast! Vor allem beim Fahrradschloss gilt: Umso stärker das Schloss desto länger hast du auch Freude an deinem Fahrrad :smiley:
 
 Apropos Freude an deinem Fahrrad – hast du schon einmal über eine Fahrradversicherung nachgedacht? Wir können nur sagen, so eine Versicherung lohnt sich, erst recht in einer Stadt wie Wien! Wir haben dir alle nötigen Infos zusammengetragen und einen Überblick erstellt:
-
-{{< absurlbutton href="./fahrradversicherung" style="padding: 10px 20px; background-color: #FF6600; color: white; border-radius: 5px; text-decoration: none;" >}}Fahrradversicherung - alle Infos{{< /absurlbutton >}}
 
 ---
 
@@ -89,12 +82,6 @@ Hier eine Liste unserer Zubehör-Artikel und einiger unserer Marken, die dich da
 - u.v.m.
 
 ---
-
-## FAHRRADZUBEHÖR VON BIANCHI
-
-Hier noch ein kleiner Überblick über ein paar unserer Zubehör-Artikel von Bianchi – natürlich mit ihrem berühmten Celeste (:-blau):
-
-{{< absurlimg src="./images/bianci.png" alt="Schloss" style="width: 45%; height: auto;" >}}
 
 Am besten kommst du einfach bei uns im Shop in der Westbahnstraße 28 in 1060 Wien vorbei und überzeugst dich von unserem Angebot und der Qualität. Wenn du noch Fragen hast zu unserem Fahrradzubehör, dann zögere nicht uns zu kontaktieren:
 
