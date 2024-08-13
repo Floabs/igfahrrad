@@ -1,17 +1,17 @@
 
 ---
-title: "newtest"
-description: "re"
-price: "23232"
-type: "testsss"
+title: "E-Elegance SI RD Wave"
+description: "Das elektrische Fahrrad von Granville kombiniert Stil und Funktionalität. Mit einem starken Bosch-Motor und einer langlebigen Batterie, perfekt für längere Fahrten."
+price: "2.499 EUR"
+type: "E-Bike"
 date: 2024-07-13T12:00:00Z
 ---
 
-## newtest
+## E-Elegance SI RD Wave
 
-### re
+### Das elektrische Fahrrad von Granville kombiniert Stil und Funktionalität. Mit einem starken Bosch-Motor und einer langlebigen Batterie, perfekt für längere Fahrten.
 
-{{< absurlimg src="./uploads/pexels-pixabay-276517.jpg" alt="newtest" style="" >}}
+{{< absurlimg src="./uploads/GV2023-E-Elegance-SI-RD_Wave.webp" alt="E-Elegance SI RD Wave" style="" >}}
 
 
 ### Lagernd bei:
@@ -24,12 +24,12 @@ Westbahnstraße 28
     <div style="width: 60%;">
         <h3>Lagernd bei:</h3>
         <p>ig fahrrad<br>Westbahnstraße 28<br>1070 Wien</p>
-        {{< contactbutton bike="newtest" >}}Anfragen{{< /contactbutton >}}
+        {{< contactbutton bike="E-Elegance SI RD Wave" >}}Anfragen{{< /contactbutton >}}
     </div>
     <div style="width: 35%;">
         <h3>INFO</h3>
-        <p><strong>Price:</strong> 23232</p>
-        <p><strong>Type:</strong> testsss</p>
+        <p><strong>Price:</strong> 2.499 EUR</p>
+        <p><strong>Type:</strong> E-Bike</p>
         <hr style="border: 1px solid orange;">
         <h3>SHARE</h3>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{< absurl >}}" target="_blank"><img src="./images/facebook.png" alt="Facebook" style="width: 24px; margin-right: 10px;"></a>

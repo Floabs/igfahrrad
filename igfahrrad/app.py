@@ -151,7 +151,20 @@ Westbahnstraße 28
             md_file.write(md_content)
 
     # Generate _index.md for neurader
-    index_content = "---\ntitle: \"Neurader\"\n---\n\n## Neurader\n\n"
+    index_content = f"""
+### Ihr persönlicher, lokaler und offizieller Verkaufspartner von Merida und Granville für Neuräder
+Wir bieten Ihnen eine riesige Auswahl an neuen Fahrrädern, perfekt für jeden Zweck, ob Sie ein Stadtfahrrad, ein Mountainbike oder ein E-Bike suchen. Unsere Hauptmarken, Merida und Granville, stehen für Qualität, Innovation und Zuverlässigkeit. Diese Räder sind bekannt für ihre robusten Rahmen, moderne Technologie und ein Design, das sowohl Ästhetik als auch Funktionalität vereint.
+        
+### Vorteile der Merida und Granville Fahrräder
+        
+- **Merida**: Eine Marke, die weltweit für ihre Performance-orientierten Fahrräder bekannt ist. Egal, ob Sie auf der Straße, im Gelände oder in der Stadt unterwegs sind, Merida bietet Modelle, die sowohl in Tests als auch in der Praxis herausragend abschneiden.
+       
+- **Granville**: Diese belgische Marke steht für komfortable, langlebige und stilvolle Fahrräder. Granville Fahrräder sind ideal für den täglichen Gebrauch in der Stadt, bieten aber auch genug Leistung für längere Touren.
+        
+Hier sind einige Beispielmodelle, die wir führen:
+        
+---
+"""
     index_content += '<div style="display: flex; flex-wrap: wrap;">\n'
     for bike in bike_data:
         index_content += f"""
@@ -165,7 +178,14 @@ Westbahnstraße 28
 </div>
 """
     index_content += '</div>\n'
+    index_content += f"""---
+    
+Dies sind nur einige Beispiele aus unserem umfangreichen Sortiment.
+Bei uns finden Sie viele weitere Modelle und Ausstattungen, die Ihren Bedürfnissen entsprechen.
+{{{{< contactbutton bike="{bike['name']}" >}}}}Anfragen{{{{< /contactbutton >}}}}
 
+</div>\n
+"""
     with open(os.path.join(BIKE_CONTENT_FOLDER, "_index.md"), 'w') as index_file:
         index_file.write(index_content)
 
