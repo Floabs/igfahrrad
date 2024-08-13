@@ -2,12 +2,6 @@
 ### Ihr persönlicher, lokaler und offizieller Verkaufspartner von Merida und Granville für Neuräder
 Wir bieten Ihnen eine riesige Auswahl an neuen Fahrrädern, perfekt für jeden Zweck, ob Sie ein Stadtfahrrad, ein Mountainbike oder ein E-Bike suchen. Unsere Hauptmarken, Merida und Granville, stehen für Qualität, Innovation und Zuverlässigkeit. Diese Räder sind bekannt für ihre robusten Rahmen, moderne Technologie und ein Design, das sowohl Ästhetik als auch Funktionalität vereint.
         
-### Vorteile der Merida und Granville Fahrräder
-        
-- **Merida**: Eine Marke, die weltweit für ihre Performance-orientierten Fahrräder bekannt ist. Egal, ob Sie auf der Straße, im Gelände oder in der Stadt unterwegs sind, Merida bietet Modelle, die sowohl in Tests als auch in der Praxis herausragend abschneiden.
-       
-- **Granville**: Diese belgische Marke steht für komfortable, langlebige und stilvolle Fahrräder. Granville Fahrräder sind ideal für den täglichen Gebrauch in der Stadt, bieten aber auch genug Leistung für längere Touren.
-        
 Hier sind einige Beispielmodelle, die wir führen:
         
 ---
