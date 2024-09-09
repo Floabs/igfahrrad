@@ -152,6 +152,13 @@ Westbahnstraße 28
 
     # Generate _index.md for neurader
     index_content = f"""
+<style>
+@media only screen and (max-width: 768px) {
+    .bike-preview {
+        width: 100%; /* Makes each bike preview take up the full width on smaller screens */
+    }
+}
+</style>
 ### Ihr persönlicher, lokaler und offizieller Verkaufspartner von Merida und Granville für Neuräder
 Wir bieten Ihnen eine riesige Auswahl an neuen Fahrrädern, perfekt für jeden Zweck, ob Sie ein Stadtfahrrad, ein Mountainbike oder ein E-Bike suchen. Unsere Hauptmarken, Merida und Granville, stehen für Qualität, Innovation und Zuverlässigkeit. Diese Räder sind bekannt für ihre robusten Rahmen, moderne Technologie und ein Design, das sowohl Ästhetik als auch Funktionalität vereint.
         
@@ -176,6 +183,7 @@ Hier sind einige Beispielmodelle, die wir führen:
     
 Dies sind nur einige Beispiele aus unserem umfangreichen Sortiment.
 Bei uns finden Sie viele weitere Modelle und Ausstattungen, die Ihren Bedürfnissen entsprechen.
+
 {{{{< contactbutton bike="{bike['name']}" >}}}}Anfragen{{{{< /contactbutton >}}}}
 
 </div>\n
