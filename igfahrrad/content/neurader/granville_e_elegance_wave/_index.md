@@ -1,17 +1,17 @@
 
 ---
-title: "eSPRESSO CITY 400"
-description: "Ein vielseitiges E-Bike von Merida, ideal für die Stadt. Bietet dank Federungsgabel und breiten Reifen hohen Fahrkomfort, angetrieben von Shimano STEPS."
-price: "2.199 EUR"
-type: "E-Bike"
+title: "Granville E Elegance Wave"
+description: "Das Granville E Elegance Wave ist ein stilvolles und komfortables E-Bike, das für den Stadtverkehr und längere Ausflüge konzipiert wurde. Mit seiner komfortablen Wellenrahmenform und hochwertigen Komponenten bietet es eine sanfte und kraftvolle Unterstützung"
+price: "3.999,-"
+type: "E-Bike (City/Komfort)"
 date: 2024-07-13T12:00:00Z
 ---
 
-## eSPRESSO CITY 400
+## Granville E Elegance Wave
 
-### Ein vielseitiges E-Bike von Merida, ideal für die Stadt. Bietet dank Federungsgabel und breiten Reifen hohen Fahrkomfort, angetrieben von Shimano STEPS.
+### Das Granville E Elegance Wave ist ein stilvolles und komfortables E-Bike, das für den Stadtverkehr und längere Ausflüge konzipiert wurde. Mit seiner komfortablen Wellenrahmenform und hochwertigen Komponenten bietet es eine sanfte und kraftvolle Unterstützung
 
-{{< absurlimg src="./uploads/eSPRESSO_CITY_400_redblk_MY24.webp" alt="eSPRESSO CITY 400" style="" >}}
+{{< absurlimg src="./uploads/granville.jpg" alt="Granville E Elegance Wave" style="" >}}
 
 
 ### Lagernd bei:
@@ -24,12 +24,12 @@ Westbahnstraße 28
     <div style="width: 60%;">
         <h3>Lagernd bei:</h3>
         <p>ig fahrrad<br>Westbahnstraße 28<br>1070 Wien</p>
-        {{< contactbutton bike="eSPRESSO CITY 400" >}}Anfragen{{< /contactbutton >}}
+        {{< contactbutton bike="Granville E Elegance Wave" >}}Anfragen{{< /contactbutton >}}
     </div>
     <div style="width: 35%;">
         <h3>INFO</h3>
-        <p><strong>Price:</strong> 2.199 EUR</p>
-        <p><strong>Type:</strong> E-Bike</p>
+        <p><strong>Price:</strong> 3.999,-</p>
+        <p><strong>Type:</strong> E-Bike (City/Komfort)</p>
         <hr style="border: 1px solid orange;">
         <h3>SHARE</h3>
         <a href="https://www.facebook.com/sharer/sharer.php?u={{< absurl >}}" target="_blank"><img src="./images/facebook.png" alt="Facebook" style="width: 24px; margin-right: 10px;"></a>
