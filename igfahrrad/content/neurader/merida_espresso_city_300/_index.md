@@ -2,7 +2,7 @@
 ---
 title: "Merida Espresso City 300"
 description: "Das Merida Espresso City 300 ist ein elegantes Stadt-E-Bike, das urbanen Fahrkomfort und moderne Technik vereint. Ideal für den täglichen Stadtverkehr, bietet es eine kraftvolle Unterstützung und eine entspannte Fahrt."
-price: "2.799,-"
+price: "2.799"
 type: "E-Bike (Stadtrad)"
 date: 2024-07-13T12:00:00Z
 ---
@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### Das Merida Espresso City 300 ist ein elegantes Stadt-E-Bike, das urbanen Fahrkomfort und moderne Technik vereint. Ideal für den täglichen Stadtverkehr, bietet es eine kraftvolle Unterstützung und eine entspannte Fahrt.
 
-{{< absurlimg src="./uploads/merida-damen+e-trekkingbike+28&quot;+espresso+city+300+eq+2019-1-7162101_1.jpg" alt="Merida Espresso City 300" style="" >}}
+{{< absurlimg src="./uploads/gutesbildespresomerida_300.jpg" alt="Merida Espresso City 300" style="" >}}
 
 
 ### Lagernd bei:
@@ -28,7 +28,7 @@ Westbahnstraße 28
     </div>
     <div style="width: 35%;">
         <h3>INFO</h3>
-        <p><strong>Price:</strong> 2.799,-</p>
+        <p><strong>Price:</strong> 2.799</p>
         <p><strong>Type:</strong> E-Bike (Stadtrad)</p>
         <hr style="border: 1px solid orange;">
         <h3>SHARE</h3>

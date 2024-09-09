@@ -35,15 +35,6 @@ Hier sind einige Beispielmodelle, die wir führen:
 </div>
 
 <div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
-    <h2>Merida Espresso City 300</h2>
-    {{< absurlimg src="./uploads/merida-damen+e-trekkingbike+28&quot;+espresso+city+300+eq+2019-1-7162101_1.jpg" alt="Merida Espresso City 300" style="width: 100%; height: auto;" >}}
-    <p>Das Merida Espresso City 300 ist ein elegantes Stadt-E-Bike, das urbanen Fahrkomfort und moderne Technik vereint. Ideal für den täglichen Stadtverkehr, bietet es eine kraftvolle Unterstützung und eine entspannte Fahrt.</p>
-    <p><strong>Price:</strong> 2.799,-</p>
-    <p><strong>Type:</strong> E-Bike (Stadtrad)</p>
-    {{< absurllink href="./neurader/merida_espresso_city_300" style="" >}}Read more{{< /absurllink >}}
-</div>
-
-<div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
     <h2>Granville E Elegance Wave</h2>
     {{< absurlimg src="./uploads/granville.jpg" alt="Granville E Elegance Wave" style="width: 100%; height: auto;" >}}
     <p>Das Granville E Elegance Wave ist ein stilvolles und komfortables E-Bike, das für den Stadtverkehr und längere Ausflüge konzipiert wurde. Mit seiner komfortablen Wellenrahmenform und hochwertigen Komponenten bietet es eine sanfte und kraftvolle Unterstützung</p>
@@ -51,12 +42,21 @@ Hier sind einige Beispielmodelle, die wir führen:
     <p><strong>Type:</strong> E-Bike (City/Komfort)</p>
     {{< absurllink href="./neurader/granville_e_elegance_wave" style="" >}}Read more{{< /absurllink >}}
 </div>
+
+<div class="bike-preview" style="width: 50%; padding: 10px; box-sizing: border-box;">
+    <h2>Merida Espresso City 300</h2>
+    {{< absurlimg src="./uploads/gutesbildespresomerida_300.jpg" alt="Merida Espresso City 300" style="width: 100%; height: auto;" >}}
+    <p>Das Merida Espresso City 300 ist ein elegantes Stadt-E-Bike, das urbanen Fahrkomfort und moderne Technik vereint. Ideal für den täglichen Stadtverkehr, bietet es eine kraftvolle Unterstützung und eine entspannte Fahrt.</p>
+    <p><strong>Price:</strong> 2.799</p>
+    <p><strong>Type:</strong> E-Bike (Stadtrad)</p>
+    {{< absurllink href="./neurader/merida_espresso_city_300" style="" >}}Read more{{< /absurllink >}}
+</div>
 </div>
 ---
     
 Dies sind nur einige Beispiele aus unserem umfangreichen Sortiment.
 Bei uns finden Sie viele weitere Modelle und Ausstattungen, die Ihren Bedürfnissen entsprechen.
-{{< contactbutton bike="Granville E Elegance Wave" >}}Anfragen{{< /contactbutton >}}
+{{< contactbutton bike="Merida Espresso City 300" >}}Anfragen{{< /contactbutton >}}
 
 </div>
 
