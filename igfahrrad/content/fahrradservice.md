@@ -42,7 +42,7 @@ Du kennst vielleicht das oben stehende Zitat, doch Tatsache ist, wer sein Fahrra
 ### Inspektion und Diagnose
 Rahmen und Gabel auf äußere Verformungen, Risse und Korrosion prüfen. Steuerlagerspiel prüfen. Lenkerklemmungen prüfen und nachziehen. Reifenluftdruck und -profiltiefe prüfen.
 
-### IGF Urban Bike Service (ohne Material) ab € 59,- (inkl. MwSt)
+### IGF Urban Bike Service (ohne Material) ab € 95,- (inkl. MwSt)
 Rahmen und Gabel auf Beschädigungen prüfen, Beleuchtung prüfen, Schaltung und Umwerfer checken.
 
 ### IGF Sicherheitscheck (ohne Material) ab € 59,- (inkl. MwSt)
@@ -58,4 +58,4 @@ Alle Arbeitsleistungen werden nach Arbeitszeit abgerechnet.
 
 ## WIE OFT SOLLTE ICH MEIN FAHRRAD ZUM SERVICE BRINGEN?
 
-Wie schon gesagt, ein Fahrradservice sollte regelmäßig veranlasst werden, zu deinem eigenen Wohl und zu dem des Drahtesels. Beim Kauf eines Neurades sollte der erste Check nach drei bis vier befahrenen Kilometern erfolgen.
+Wie schon gesagt, ein Fahrradservice sollte regelmäßig veranlasst werden, zu deinem eigenen Wohl und zu dem des Drahtesels. Beim Kauf eines Neurads sollte der erste Check nach ca. 200 Km erfolgen.

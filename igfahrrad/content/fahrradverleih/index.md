@@ -17,17 +17,17 @@ E-Bikes werden immer beliebter. Sie sind vor allem ein guter Partner bei länger
 
 **E-bikes**
 
-- ½ Tag: € 28,–
-- 1 Tag: € 49,–
-- 2 Tage: € 84,–
+- ½ Tag: € 30,–
+- 1 Tag: € 50,–
+- 2 Tage: € 85,–
 - 3 Tage: € 109,–
-- 4 Tage: € 135,–
-- 5 Tage: € 159,–
-- 6 Tage: € 175,–
-- 7 Tage: € 189,–
-- 2 Wochen: € 310,–
-- 3 Wochen: € 420,–
-- 4 Wochen: € 520,–
+- 4 Tage: € 136,–
+- 5 Tage: € 160,–
+- 6 Tage: € 176,–
+- 7 Tage: € 190,–
+- 2 Wochen: € 312,–
+- 3 Wochen: € 422,–
+- 4 Wochen: € 525,–
 
 
 ---
@@ -48,15 +48,19 @@ Wer sich nicht auf die elektronische Unterstützung verlassen und etwas mehr die
 
 **Trekkingräder**
 
-- ½ Tag: € 18,–
-- 1 Tag: € 29,–
-- 2 Tage: € 49,–
-- 3 Tage: € 59,–
-- 4 Tage: € 64,–
-- 5 Tage: € 69,–
-- 6 Tage: € 75,–
-- 7 Tage: € 79,–
-- 2 Wochen: € 129,–
-- 3 Wochen: € 149,–
-- 4 Wochen: € 199,–
+- ½ Tag: € 20,–
+- 1 Tag: € 30,–
+- 2 Tage: € 50,–
+- 3 Tage: € 60,–
+- 4 Tage: € 65,–
+- 5 Tage: € 70,–
+- 6 Tage: € 76,–
+- 7 Tage: € 80,–
+- 2 Wochen: € 130,–
+- 3 Wochen: € 170,–
+- 4 Wochen: € 200,–
 
+---
+
+
+## Helme, Taschen, Zubehör etc. Verleihpreise auf Anfrage

@@ -86,7 +86,7 @@ Hier findest Du ein paar Beispielbilder zu einigen unserer Gebrauchträder. Die 
 
 #### Tipps und Tricks von IG Fahrrad
 
-1. Lassen Sie sich eine Servicegarantie geben, um sicher zu gehen, dass Ihr Rad auch länger funktioniert als nur den Nachhauseweg. Kaufen Sie Gebrauchträder bevorzugt vom Fachhändler, denn nur dieser ist auch für Gewährleistung, für Siegeradfahren und vieles mehr zuständig.
+1. Lassen Sie sich eine Servicegarantie geben, um sicher zu gehen, dass Ihr Rad auch länger funktioniert als nur den Nachhauseweg. Kaufen Sie Gebrauchträder bevorzugt vom Fachhändler. Für Gewährleistung, für Probefahren und vieles mehr.
 2. Der Kauf beim Flohmarktradler birgt immer ein Risiko. Die meisten Räder landen dann gleich in der Servicewerkstätte, was den Preis des Rades dann schmerzlich erhöht. Weiteres kann es schwer unangenehme Folgen haben, wenn Sie am Flohmarkt ein Diebesgut kaufen und diese dann von der Polizei gesichtet und beschlagnahmt wird!
 3. Daher empfehlen wir nur bei seriösen Gebrauchtradhändlern zu kaufen, da diese immer nach polizeilichen Sicherheitskriterien einkaufen und die Herkunft genau belegen können.
 4. Bei einem Ankauf von Fahrrädern von Privatpersonen, sollten Sie auch nach der Herkunft der Räder fragen.
