@@ -49,6 +49,6 @@ Nach den Anpassungen machen Sie eine Testfahrt, um sicherzustellen, dass alle Ei
 
 Wenn Sie mehr über unser Bikefitting-Angebot erfahren oder einen Termin vereinbaren möchten, kontaktieren Sie uns bitte:
 
-- **Email:** info@ig-fahrrad.at
+- **Email:** shop@ig-fahrrad.at
 
 Erleben Sie den Unterschied eines professionellen Bikefittings und verbessern Sie Ihre Fahrleistung und Ihren Komfort!
