@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### Das Merida Crossway 40 ist das perfekte Trekkingrad für den täglichen Weg zur Arbeit und für Wochenendausflüge. Mit seiner komfortablen Sitzposition, der Federgabel und dem robusten Design bietet es eine angenehme und effiziente Fahrt auf gepflasterten sowie unbefestigten Wegen.
 
-{{< absurlimg src="./uploads/CROSSWAY_40_blkslv_MY2022.jpeg" alt="Merida Crossway 40" style="" >}}
+{{< absurlimg src="./uploads/CROSSWAY_40_blkslv_MY2022.webp" alt="Merida Crossway 40" style="" >}}
 
 
 ### Lagernd bei:

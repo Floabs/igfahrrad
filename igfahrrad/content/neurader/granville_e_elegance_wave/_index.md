@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### Das Granville E Elegance Wave ist ein stilvolles und komfortables E-Bike, das für den Stadtverkehr und längere Ausflüge konzipiert wurde. Mit seiner komfortablen Wellenrahmenform und hochwertigen Komponenten bietet es eine sanfte und kraftvolle Unterstützung
 
-{{< absurlimg src="./uploads/granville.jpg" alt="Granville E Elegance Wave" style="" >}}
+{{< absurlimg src="./uploads/granville.webp" alt="Granville E Elegance Wave" style="" >}}
 
 
 ### Lagernd bei:

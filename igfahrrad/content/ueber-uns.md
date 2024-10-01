@@ -22,19 +22,19 @@ Als Radservicespezialist fühlen wir uns dem Alltagsradler verpflichtet. Wir unt
 
 <div style="flex: 1; text-align: center; margin: 10px;">
   <h2>WOLFGANG</h2>
-  {{< absurlimg src="./images/wolfgang_leitner.png" alt="Wolfgang Leitner" style="width: 45%; height: auto;" >}}
+  {{< absurlimg src="./images/wolfgang_leitner.webp" alt="Wolfgang Leitner" style="width: 45%; height: auto;" >}}
   <p>Inhaber</p>
 </div>
 
 <div style="flex: 1; text-align: center; margin: 10px;">
   <h2>TAMAS</h2>
-  {{< absurlimg src="./images/tamas.png" alt="Tamas" style="width: 45%; height: auto;" >}}
+  {{< absurlimg src="./images/tamas.webp" alt="Tamas" style="width: 45%; height: auto;" >}}
   <p>Fahrradmechaniker</p>
 </div>
 
 <div style="flex: 1; text-align: center; margin: 10px;">
   <h2>ANDREAS</h2>
-  {{< absurlimg src="./images/andreas.png" alt="Andreas" style="width: 45%; height: auto;" >}}
+  {{< absurlimg src="./images/andreas.webp" alt="Andreas" style="width: 45%; height: auto;" >}}
   <p>Verkäufer</p>
 </div>
 

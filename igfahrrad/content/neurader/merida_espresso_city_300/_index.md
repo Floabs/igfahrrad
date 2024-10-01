@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### Das Merida Espresso City 300 ist ein elegantes Stadt-E-Bike, das urbanen Fahrkomfort und moderne Technik vereint. Ideal für den täglichen Stadtverkehr, bietet es eine kraftvolle Unterstützung und eine entspannte Fahrt.
 
-{{< absurlimg src="./uploads/gutesbildespresomerida_300.jpg" alt="Merida Espresso City 300" style="" >}}
+{{< absurlimg src="./uploads/gutesbildespresomerida_300.webp" alt="Merida Espresso City 300" style="" >}}
 
 
 ### Lagernd bei:

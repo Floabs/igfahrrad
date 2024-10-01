@@ -11,7 +11,7 @@ date: 2024-07-13T12:00:00Z
 
 ### Das Merida Gravel Silex 700 ist ein vielseitiges Gravel-Bike, das für Abenteuer gemacht ist. Mit seinem leichten Rahmen und der breiten Reifenfreiheit meistert es verschiedene Terrains mühelos und ist ideal für lange Strecken sowohl auf als auch abseits der Straße.
 
-{{< absurlimg src="./uploads/SILEX_700_redgry_MY24.jpeg" alt="Merida Gravel Silex 700" style="" >}}
+{{< absurlimg src="./uploads/SILEX_700_redgry_MY24.webp" alt="Merida Gravel Silex 700" style="" >}}
 
 
 ### Lagernd bei:

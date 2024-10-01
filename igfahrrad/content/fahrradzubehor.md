@@ -33,8 +33,8 @@ Wir führen Fahrradhelme von höchster Qualität, denn vor allem beim Helm darf 
 
 Hier findest du eine kleine Auswahl der Fahrradhelme in unserem Fahrradgeschäft in 1070 Wien – in der Westbahnstraße 28. Wir haben darauf geachtet, dass für jeden was dabei ist, für Groß, für Klein, für Hobbyfahrer, Stadtradler oder Rennradler. Am besten kommst du bei uns auf einen Sprung vorbei, denn der beste Helm ist immer der, der auch wirklich perfekt sitzt. Das ist online immer schwierig...
 
-{{< absurlimg src="./images/helm1.png" alt="Helm 1" style="width: 45%; height: auto;" >}}
-{{< absurlimg src="./images/helm2.png" alt="Helm 2" style="width: 45%; height: auto;" >}}
+{{< absurlimg src="./images/helm1.webp" alt="Helm 1" style="width: 45%; height: auto;" >}}
+{{< absurlimg src="./images/helm2.webp" alt="Helm 2" style="width: 45%; height: auto;" >}}
 
 ---
 
@@ -50,7 +50,7 @@ Apropos Freude an deinem Fahrrad – hast du schon einmal über eine Fahrradvers
 
 Ein Fahrradschloss ist nicht nur die Voraussetzung dafür, dass deine Fahrradversicherung greift, ein gutes und robustes Schloss macht es Dieben so gut wie unmöglich, dein Fahrrad zu klauen. Zumindest erschwert es das Vorhaben ungemein und vereitelt es dadurch in der Regel auch. Wir haben verschiedene Arten an Fahrradschlössern im Angebot, von Glieder- über Bügel bis hin zu starken Kettenschlössern. Vornehmlich von der Marke ABUS. Hier eine Auswahl unseres Sortiments:
 
-{{< absurlimg src="./images/schloss.png" alt="Schloss" style="width: 45%; height: auto;" >}}
+{{< absurlimg src="./images/schloss.webp" alt="Schloss" style="width: 45%; height: auto;" >}}
 
 ---
 
@@ -58,7 +58,7 @@ Ein Fahrradschloss ist nicht nur die Voraussetzung dafür, dass deine Fahrradver
 
 Unser ganzes Sortiment an Fahrradzubehör geht noch weit über die erwähnten Artikel hinaus. Es sind nicht nur der Helm, die Lichter, oder das Schloss, die deine Sicherheit erhöhen... auch die Kraft einer Fahrradklingel solltest du niemals unterschätzen. Wenn du viel mit deinem Fahrrad unterwegs bist, dann können gutes Ersatzwerkzeug und eine gute Fahrradpumpe Wunder wirken.
 
-{{< absurlimg src="./images/sortiment.png" alt="Sortiment" style="width: 45%; height: auto;" >}}
+{{< absurlimg src="./images/sortiment.webp" alt="Sortiment" style="width: 45%; height: auto;" >}}
 
 Hier eine Liste unserer Zubehör-Artikel und einiger unserer Marken, die dich dabei unterstützen mit mehr Sicherheit und Komfort durch den Radler-Alltag zu kommen:
 

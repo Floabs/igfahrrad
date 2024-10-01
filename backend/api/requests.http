@@ -15,7 +15,7 @@ POST http://localhost:8080/bicycles/save
 Content-Type: application/json
 
 {
-    "name": "rad2",
+    "name": "rad3",
     "description": "das zweite testbike",
     "price": "200",
     "type": "cruiserbike",
@@ -49,6 +49,7 @@ Content-Type: application/json
 ###
 POST http://localhost:8080/register
 Content-Type: application/json
+
 {
   "username": "User",
   "password": "password"
