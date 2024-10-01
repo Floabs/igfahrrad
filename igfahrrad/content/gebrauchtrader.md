@@ -79,7 +79,7 @@ Bei uns findest du gepflegte Mountainbikes, Trekking, Rennräder, City Bikes, Ki
 Hier findest Du ein paar Beispielbilder zu einigen unserer Gebrauchträder. Die Fluktuation ist hier so hoch, dass wir nur Beispielbilder zeigen, am besten Du kommst persönlich in der 7, Westbahnstraße 28 vorbei!
 
 <div style="display: flex; justify-content: space-around;">
-  {{< absurlimg src="./images/gebrauchtrad2.jpg" alt="Beispielbild 2" style="width: 45%; height: auto;" >}}
+  {{< absurlimg src="./images/gebrauchtrad2.webp" alt="Beispielbild 2" style="width: 45%; height: auto;" >}}
 </div>
 
 ### WORAUF DU BEIM KAUF EINES GEBRAUCHTRADS ACHTEN SOLLTEST
