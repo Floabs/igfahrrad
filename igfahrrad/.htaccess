@@ -2,11 +2,9 @@
     Deny from all
 </FilesMatch>
 DirectoryIndex index.html
-#ErrorDocument 404 /index.html
-
+ErrorDocument 404 /index.html
 
 RewriteEngine On
 RewriteRule ^radshop-wien/neuraeder.*$ /neurader/ [R=301,L]
 RewriteCond %{QUERY_STRING} .
-#RewriteRule ^ - [R=404]
 RewriteRule ^ - [R=404]
