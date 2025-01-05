@@ -8,7 +8,8 @@ RewriteEngine On
 RewriteRule ^radshop-wien/neuraeder.*$ /neurader/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^ig-fahrrad.at$ [NC]
-RewriteRule (.*) https://www.ig-fahrrad.at/$1 [R=301,L] 
+RewriteRule (.*) https://www.ig-fahrrad.at/$1 [R=301,L]
 
 RewriteCond %{QUERY_STRING} .
-RewriteRule ^ - [R=404]
+RewriteRule (.*) https://www.ig-fahrrad.at/ [QSD,R=301,L]
+#RewriteRule ^ - [R=404]
