@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
     {{ hugo.Generator }}
-    {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq site.Params.env "production") }}
+    {{ $production := eq (getenv "HUGO_ENV") "production" | or (eq hugo.Environment "production") }}
     {{ $public := not .Params.private }}
     {{ if and $production $public }}
-      <meta name="robots" content="index, follow">
+        <!-- production build needs no robots tag, default is all -->
+        <!--<meta name="robots" content="all"> -->
     {{ else }}
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="none"> <!-- none: Equivalent to noindex, nofollow -->
     {{ end }}
     {{ with .Params.author | default .Site.Params.author }}
       <meta name="author" content="{{ if reflect.IsSlice . }}{{ delimit . ", " | plainify }}{{ else }}{{ . | plainify }}{{ end }}">

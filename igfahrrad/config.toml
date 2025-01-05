@@ -5,6 +5,10 @@ languageCode = 'en-us'
 title = 'IHR FAHRRADGESCHÄFT IN WIEN'
 theme = "ananke"
 
+# set to production when google should index it
+environment = "production"
+minify = true
+
 [params]
   description = "Promoting cycling in the city."
   author = "IG Fahrrad"
