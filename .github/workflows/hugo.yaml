@@ -16,13 +16,18 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
          
+      - name: setup ImageMagick
+        run: apt-get -y install imagemagick
+      - name: shrink images
+        run: ./resize-images.sh
+        working-directory: igfahrrad    
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

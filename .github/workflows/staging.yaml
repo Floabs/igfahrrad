@@ -17,16 +17,6 @@ jobs:
       baseUrl: https://floabs.github.io/igfahrrad/
       environment: "--environment staging"
 
-  #documentation:
-  #  runs-on: ubuntu-latest
-  #  steps:
-  #    - uses: actions/checkout@v3
-  #    - uses: actions/upload-artifact@master
-  #      with:
-  #        name: doc
-  #        path: documentation
-  #        if-no-files-found: error
-
   deploy-gh-pages: # do not rename this, webhook listens to exactly this workflow name
     runs-on: ubuntu-24.04
     needs: 
