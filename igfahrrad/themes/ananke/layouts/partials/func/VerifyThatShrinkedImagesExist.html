@@ -1,0 +1,13 @@
+{{/**
+
+Before building the site the big images must be shrinked.
+The shrinked images are not checked into github, so after a checkout we must run ./resize-images.sh
+
+*/}}
+
+{{ $shrinkedFiles := slice "small/bikes_in_forest.webp"}}
+{{range $shrinkedFiles}}
+    {{if not (os.FileExists (printf "static/images/%s" .))}}
+        {{ errorf "the file %s is Missing. Please run ./resize-images.sh before building" . }}
+    {{end}}
+{{end}}
