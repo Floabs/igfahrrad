@@ -5,7 +5,7 @@ The shrinked images are not checked into github, so after a checkout we must run
 
 */}}
 
-{{ $shrinkedFiles := slice "small/bikes_in_forest.webp"}}
+{{ $shrinkedFiles := slice "small/bikes_in_forest-1024.webp"}}
 {{range $shrinkedFiles}}
     {{if not (os.FileExists (printf "static/images/%s" .))}}
         {{ errorf "the file %s is Missing. Please run ./resize-images.sh before building" . }}
