@@ -1,0 +1,27 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "BikeStore",
+        "@id": "#store",
+        "name": "IG Fahrrad",
+        "description": "Ihr Fahrrad geschäft in Wien",
+        "url": "https://www.ig-fahrrad.at/",
+        "currenciesAccepted": "EUR",
+        "paymentAccepted":"Cash, Credit Card",
+        "openingHours": "Tu,We,Th,Fr 11:00-18:00",
+        "location": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "48.20219511687516",
+                "longitude": "16.34426984085361"      
+            }
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Wien",
+            "postalCode": "1070",
+            "streetAddress": "Westbahnstrasse 28, Wien"
+        }        
+    }   
+]

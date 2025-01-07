@@ -26,7 +26,8 @@
     {{ partial "site-scripts.html" . }}
     
     {{ if .Params.snippet }}
-        {{ partial "snippets/verleih.html"  .Site.Data .Params.snippet }}
+        {{ $snippetName := index .Site.Data .Params.snippet }}
+        {{ partial "snippets/verleih.html" $snippetName }}
     {{ end }}
     
     {{ block "favicon" . }}{{ partialCached "site-favicon.html" . }}{{ end }}

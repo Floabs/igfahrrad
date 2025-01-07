@@ -1,5 +1,6 @@
 ---
 title: "Über uns"
+snippet: bikestore
 ---
 
 ## Unternehmens – Kurzbeschreibung

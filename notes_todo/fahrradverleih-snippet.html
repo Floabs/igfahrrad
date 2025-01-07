@@ -3,57 +3,31 @@
     <title>Wool winter coat</title>
     <script type="application/ld+json">
       [
-    {
-        "@context": "https://schema.org",
-        "@type": "ProductGroup",
-        "@id": "#verleih",
-        "name": "Fahrrad Verleih",
-        "description": "E-Bike mieten in Wien",
-        "url": "https://www.ig-fahrrad.at/fahrradverleih/",
-        "brand": {
-            "@type": "Brand",
-            "name": "Fahrrad Verleih"
-        },
-        "productGroupID": "1",
-        "variesBy": [
-            {
-                "@type": "DefinedTerm",
-                "@id": "biketype",
-                "name": "type",
-                "url": "https://www.ig-fahrrad.at/fahrradverleih",
-                "inDefinedTermSet": "https://www.ig-fahrrad.at/"
-            }
-        ]
-    },
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "isVariantOf": {
-            "@id": "#verleih"
-        },
-        "image": "https://www.ig-fahrrad.at/uploads/SILEX_700_redgry_MY24.webp",
-        "biketype": "E-Bike",
-        "name": "E-Bike",
-        "description": "E-Bike zum Erkunden von Wien und Umgebung",
-        "offers": [
-            {
-                "@type": "Offer",
-                "url": "https://www.ig-fahrrad.at/fahrradverleih/",
-                "price": 50,
-                "priceCurrency": "EUR",
-                "buinessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
-                "leaseLength": "P1D"
-            },
-            {
-              "@type": "Offer",
-              "url": "https://www.ig-fahrrad.at/fahrradverleih/",
-              "price": 190,
-              "priceCurrency": "EUR",
-              "buinessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
-              "leaseLength": "P7D"
-            }
-        ]
-    }
+      {
+          "@context": "https://schema.org",
+          "@type": "BikeStore",
+          "@id": "#store",
+          "name": "IG Fahrrad",
+          "description": "Ihr Fahrrad geschäft in Wien",
+          "url": "https://www.ig-fahrrad.at/",
+          "currenciesAccepted": "EUR",
+          "paymentAccepted":"Cash, Credit Card",
+          "openingHours": "Tu,We,Th,Fr 11:00-18:00",
+          "location": {
+              "@type": "Place",
+              "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": "48.20219511687516",
+                  "longitude": "16.34426984085361"      
+              }
+          },
+          "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Wien",
+              "postalCode": "1070",
+              "streetAddress": "Westbahnstrasse 28, Wien"
+          }        
+      }   
   ]
 </script>
   </head>
