@@ -24,6 +24,11 @@
     {{ end }}
     {{ partial "site-style.html" . }}
     {{ partial "site-scripts.html" . }}
+    
+    {{ if .Params.snippet }}
+        {{ partial "snippets/verleih.html"  .Site.Data .Params.snippet }}
+    {{ end }}
+    
     {{ block "favicon" . }}{{ partialCached "site-favicon.html" . }}{{ end }}
     {{ if .OutputFormats.Get "RSS" }}
       {{ with .OutputFormats.Get "RSS" }}

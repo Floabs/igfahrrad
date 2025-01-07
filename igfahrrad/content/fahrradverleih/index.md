@@ -1,6 +1,7 @@
 ---
 title: "Fahrradverleih"
 description: "E-Bikes, Trekkingbikes und Citybikes mieten in Wien"
+snippet: verleih
 ---
 
 # E-Bike mieten in Wien

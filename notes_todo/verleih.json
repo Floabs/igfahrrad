@@ -1,0 +1,53 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "ProductGroup",
+        "@id": "#verleih",
+        "name": "Fahrrad Verleih",
+        "description": "E-Bike mieten in Wien",
+        "url": "https://www.ig-fahrrad.at/fahrradverleih/",
+        "brand": {
+            "@type": "Brand",
+            "name": "Fahrrad Verleih"
+        },
+        "productGroupID": "1",
+        "variesBy": [
+            {
+                "@type": "DefinedTerm",
+                "@id": "biketype",
+                "name": "type",
+                "url": "https://www.ig-fahrrad.at/fahrradverleih",
+                "inDefinedTermSet": "https://www.ig-fahrrad.at/"
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "isVariantOf": {
+            "@id": "#verleih"
+        },
+        "biketype": "E-Bike",
+        "name": "E-Bike",
+        "description": "E-Bike zum Erkunden von Wien und Umgebung",
+        "image": "https://www.ig-fahrrad.at/uploads/SILEX_700_redgry_MY24.webp",
+        "offers": [
+            {
+                "@type": "Offer",
+                "url": "https://www.ig-fahrrad.at/fahrradverleih/",
+                "price": 50,
+                "priceCurrency": "EUR",
+                "buinessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+                "leaseLength": "P1D"
+            },
+            {
+                "@type": "Offer",
+                "url": "https://www.ig-fahrrad.at/fahrradverleih/",
+                "price": 190,
+                "priceCurrency": "EUR",
+                "buinessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+                "leaseLength": "P7D"
+            }            
+        ]
+    }
+]
