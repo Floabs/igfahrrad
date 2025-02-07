@@ -17,7 +17,7 @@ date: 2024-07-13T12:00:00Z
   Du kannst uns dein Fahrrad innerhalb 24h wieder bei uns abholen – gegen einen Aufschlag von 30 €
 
 - **Mit Express-Service**  
-  Wir kümmern uns um dein Fahrrad, auch wenn du spontan ohne Termin kommst!
+  Eine Express Reparatur innerhalb von 12 Stunden wird mit 50 % Mehrkosten auf die Arbeitszeit berechnet.
 
 <section style="text-align:center;">
   <h2 style="color:#ff6600;">Westbahnstraße 28</h2>
@@ -39,20 +39,20 @@ Du kennst vielleicht das oben stehende Zitat, doch Tatsache ist, wer sein Fahrra
 
 ## UNSERE SERVICEPAKETE
 
-### Inspektion und Diagnose
-Rahmen und Gabel auf äußere Verformungen, Risse und Korrosion prüfen. Steuerlagerspiel prüfen. Lenkerklemmungen prüfen und nachziehen. Reifenluftdruck und -profiltiefe prüfen.
+### IGF Urban Bike Service (ohne Material) € 110,-
+STVO Check, Rahmen und Gabel auf Beschädigung prüfen, Schrauben am Lenker, Vorbau und Sattelstütze überprüfen und gegebenenfalls justieren. Steuersatz prüfen und justieren, Kettenprüfung (ohne Wechsel), Kette schmieren, Schaltung und Umwerfer prüfen inklusive Justierung, Bremsen Checkup inklusive Justierung, Reifen auf Beschädigung überprüfen, Luftdruck überprüfen und gegebenenfalls korrigieren, Seilzüge prüfen und schmieren, Schaltungsbauteile (z.B. Leitrolle) auf Verschleiß prüfen. Kurbelgarnitur und Tretlager Checkup und Wartung , Antrieb prüfen (Kurbel, Kette, Kranz).
 
-### IGF Urban Bike Service (ohne Material) ab € 95,- (inkl. MwSt)
-Rahmen und Gabel auf Beschädigungen prüfen, Beleuchtung prüfen, Schaltung und Umwerfer checken.
+### IGF Sicherheitscheck (ohne Material) ab € 65,- (inkl. MwSt)
+STVO Check, Kette und Ritzel auf Verschleiß prüfen und ölen, Funktionsüberprüfung und Einstellen von Bremsen und Schaltung, Luftdruck überprüfen und gegebenenfalls korrigieren, Schmieren aller beweglichen Teile, Kontrolle der Lichtanlage, Sichtkontrolle bei sicherheitsrelevanten Teilen auf Beschädigungen, Zentrieren leichter Achter
 
-### IGF Sicherheitscheck (ohne Material) ab € 59,- (inkl. MwSt)
-Kette, Ritzel auf Verschleiß prüfen, Bremsen und Schaltung überprüfen, alle sicherheitsrelevanten Teile überprüfen.
+### Oldtimerservice (ohne Material) ab € 85,- (inkl. MwSt)
+STVO Check, Kette und Ritzel auf Verschleiß prüfen und ölen, Funktionsüberprüfung und Einstellen von Bremsen und Schaltung, Luftdruck überprüfen und gegebenenfalls korrigieren, Schmieren aller beweglichen Teile, Kontrolle der Lichtanlage, Sichtkontrolle bei sicherheitsrelevanten Teilen auf Beschädigungen, Zentrieren leichter Achter. Wiederherstellung des Fahrrads, sodas es fahrbereit ist, alles nachgezogen und kontrolliert wird. Alle sicherheitsrelevanten Teile werden kontrolliert und im Bedarfsfall erneuert.
 
-### Oldtimerservice (ohne Material) ab € 75,- (inkl. MwSt)
-Optische Durchsicht, Kontrolle aller sicherheitsrelevanten Teile und Kontrolle der Luftdrucks.
 
-### Arbeitsstunde (€ 120,- (inkl. MwSt)
-Alle Arbeitsleistungen werden nach Arbeitszeit abgerechnet.
+Gilt für Räder die einen schlechten Gesamtzustand haben und älter als 5 Jahre sind. 
+
+
+### E-Bike Update € 45,-
 
 <hr style="border: 0; height: 2px; background-color: #FF6600; margin-top: 30px; margin-bottom: 30px;">
 
