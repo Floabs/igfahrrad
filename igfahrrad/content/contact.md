@@ -3,7 +3,7 @@ title: "Kontakt"
 description: "Get in touch with us"
 ---
 
-<form action="https://formspree.io/f/xovavnwp" method="POST" style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; width: 100%;">
+<form action="https://formspree.io/f/mldbgewa" method="POST" style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; width: 100%;">
   <h2 style="color: orange;">Wir freuen uns über Ihre Anfrage!</h2>
   <hr style="border: 1px solid orange;">
   <div style="display: flex; flex-direction: column; gap: 15px;">
