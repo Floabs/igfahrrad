@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 set -e
 hugo --verbose --minify --destination www --environment production --baseURL https://www.ig-fahrrad.at/
